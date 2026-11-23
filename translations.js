@@ -88,12 +88,12 @@ window.portfolioTranslations = {
 };
 
 window.exitConfirmationTranslations = {
-  en: ["Leave the portfolio?", "The external link will open in a new tab.", "Destination", "Adult content", "This game is intended for ages 18 and over.", "Stay here", "Open link"],
-  pt: ["Sair do portfólio?", "O link externo vai abrir em outra aba.", "Destino", "Conteúdo adulto", "Este jogo é destinado a maiores de 18 anos.", "Ficar no portfólio", "Abrir link"],
-  es: ["¿Salir del portafolio?", "El enlace externo se abrirá en otra pestaña.", "Destino", "Contenido para adultos", "Este juego está destinado a mayores de 18 años.", "Quedarse aquí", "Abrir enlace"],
-  fr: ["Quitter le portfolio ?", "Le lien externe s’ouvrira dans un nouvel onglet.", "Destination", "Contenu pour adultes", "Ce jeu est réservé aux personnes de 18 ans et plus.", "Rester ici", "Ouvrir le lien"],
-  "zh-Hans": ["离开作品集？", "外部链接将在新标签页中打开。", "目标网站", "成人内容", "本游戏仅面向年满 18 周岁的玩家。", "留在这里", "打开链接"],
-  hi: ["पोर्टफ़ोलियो से बाहर जाएँ?", "बाहरी लिंक एक नए टैब में खुलेगा।", "गंतव्य", "वयस्क सामग्री", "यह गेम 18 वर्ष या उससे अधिक उम्र के लोगों के लिए है।", "यहीं रहें", "लिंक खोलें"],
-  ar: ["هل تريد مغادرة معرض الأعمال؟", "سيُفتح الرابط الخارجي في علامة تبويب جديدة.", "الوجهة", "محتوى للبالغين", "هذه اللعبة مخصصة لمن يبلغون 18 عامًا أو أكثر.", "البقاء هنا", "افتح الرابط"],
-  bn: ["পোর্টফোলিও থেকে বের হতে চান?", "বাইরের লিংকটি নতুন ট্যাবে খুলবে।", "গন্তব্য", "প্রাপ্তবয়স্কদের জন্য", "এই গেমটি ১৮ বছর বা তার বেশি বয়সীদের জন্য।", "এখানেই থাকুন", "লিংক খুলুন"]
+  en: ["Leave the portfolio?", "Check the destination before continuing.", "Destination", "Adult content", "This game is intended for ages 18 and over.", "Stay here", "Open link"],
+  pt: ["Sair do portfólio?", "Confira o endereço antes de continuar.", "Destino", "Conteúdo adulto", "Este jogo é destinado a maiores de 18 anos.", "Ficar no portfólio", "Abrir link"],
+  es: ["¿Salir del portafolio?", "Comprueba el destino antes de continuar.", "Destino", "Contenido para adultos", "Este juego está destinado a mayores de 18 años.", "Quedarse aquí", "Abrir enlace"],
+  fr: ["Quitter le portfolio ?", "Vérifiez la destination avant de continuer.", "Destination", "Contenu pour adultes", "Ce jeu est réservé aux personnes de 18 ans et plus.", "Rester ici", "Ouvrir le lien"],
+  "zh-Hans": ["离开作品集？", "继续前请确认目标网站。", "目标网站", "成人内容", "本游戏仅面向年满 18 周岁的玩家。", "留在这里", "打开链接"],
+  hi: ["पोर्टफ़ोलियो से बाहर जाएँ?", "आगे बढ़ने से पहले गंतव्य देखें।", "गंतव्य", "वयस्क सामग्री", "यह गेम 18 वर्ष या उससे अधिक उम्र के लोगों के लिए है।", "यहीं रहें", "लिंक खोलें"],
+  ar: ["هل تريد مغادرة معرض الأعمال؟", "تحقّق من الوجهة قبل المتابعة.", "الوجهة", "محتوى للبالغين", "هذه اللعبة مخصصة لمن يبلغون 18 عامًا أو أكثر.", "البقاء هنا", "افتح الرابط"],
+  bn: ["পোর্টফোলিও থেকে বের হতে চান?", "এগিয়ে যাওয়ার আগে গন্তব্যটি দেখে নিন।", "গন্তব্য", "প্রাপ্তবয়স্কদের জন্য", "এই গেমটি ১৮ বছর বা তার বেশি বয়সীদের জন্য।", "এখানেই থাকুন", "লিংক খুলুন"]
 };

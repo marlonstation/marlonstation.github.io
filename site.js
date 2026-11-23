@@ -21,6 +21,11 @@ function applyLanguage(language) {
     else if (attribute) element.setAttribute(attribute, text);
     else element.textContent = text;
   }
+  for (const link of document.querySelectorAll('[data-destination]')) {
+    const params = new URLSearchParams({to: link.dataset.destination});
+    if (language !== 'en') params.set('lang', language);
+    link.href = 'leave.html?' + params;
+  }
   for (const link of localeLinks) {
     if (link.dataset.lang === language) link.setAttribute('aria-current', 'true');
     else link.removeAttribute('aria-current');
@@ -47,47 +52,3 @@ for (const link of localeLinks) {
 
 window.addEventListener('popstate', applyURL);
 applyURL();
-
-const confirmation = document.querySelector('#exit-confirmation');
-const adultContent = document.querySelector('#adult-content');
-const gameName = document.querySelector('#adult-game');
-const destination = document.querySelector('#exit-host');
-const continueLink = document.querySelector('#exit-continue');
-const confirmationFields = [
-  'exit-title', 'exit-message', 'exit-destination-label', 'adult-title',
-  'adult-message', 'exit-cancel', 'exit-continue'
-];
-let externalTrigger;
-
-function confirmExternalLink(event) {
-  if (event.defaultPrevented || (event.type === 'auxclick' && event.button !== 1) ||
-      typeof confirmation.showModal !== 'function') return;
-
-  const link = event.currentTarget;
-  const url = new URL(link.href);
-  if (url.origin === location.origin) return;
-
-  event.preventDefault();
-  const language = document.documentElement.lang === 'pt-BR' ? 'pt' : document.documentElement.lang;
-  const translations = window.exitConfirmationTranslations;
-  const labels = translations[language] ?? translations.en;
-  confirmationFields.forEach((id, index) => {
-    document.getElementById(id).textContent = labels[index];
-  });
-
-  adultContent.hidden = !link.dataset.adult;
-  gameName.textContent = link.dataset.adult ?? '';
-  confirmation.setAttribute('aria-describedby', adultContent.hidden ? 'exit-message' : 'exit-message adult-message');
-  destination.textContent = url.hostname;
-  continueLink.href = url.href;
-  externalTrigger = link;
-  if (!confirmation.open) confirmation.showModal();
-}
-
-for (const link of document.querySelectorAll('a[href^="https://"], a[href^="http://"]')) {
-  link.addEventListener('click', confirmExternalLink);
-  link.addEventListener('auxclick', confirmExternalLink);
-}
-
-continueLink.addEventListener('click', () => confirmation.close());
-confirmation.addEventListener('close', () => externalTrigger?.focus());

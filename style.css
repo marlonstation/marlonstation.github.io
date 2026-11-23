@@ -25,9 +25,10 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .adult-badge{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#fff0de;color:#79440a;border:1px solid #d9a96e;border-radius:999px;padding:.15rem .48rem;font-size:.77rem;font-weight:750;line-height:1.3}
 .studio-action{display:flex;align-items:center;gap:.65rem;white-space:nowrap}
 .studio-action a{font-weight:700}
-#exit-confirmation{width:min(460px,calc(100% - 36px));max-height:calc(100dvh - 36px);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,5vw,30px);color:var(--ink);box-shadow:0 18px 70px #13172434}
-#exit-confirmation::backdrop{background:#12182a75}
-#exit-confirmation h2{font-size:clamp(1.55rem,5vw,2.2rem);margin:0 0 .55rem}
+.exit-page{min-height:100vh;display:grid;place-items:center;padding:24px 18px}
+.exit-card{width:min(100%,460px);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,5vw,30px);background:#fff;color:var(--ink);box-shadow:0 18px 70px #13172424}
+.exit-card h1{font-size:clamp(1.55rem,5vw,2.2rem);line-height:1.12;letter-spacing:-.04em;margin:0 0 .55rem}
+.exit-card [hidden]{display:none}
 #exit-message{color:var(--muted);margin-bottom:.9rem}
 .exit-destination{display:grid;gap:.1rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);padding:.65rem .85rem;font-size:.94rem}
 #exit-destination-label{color:var(--muted)}
@@ -38,7 +39,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 #adult-game{font-weight:700;margin:.35rem 0 .15rem}
 #adult-message{margin:0;color:#65431d;font-size:.94rem}
 .exit-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:.6rem;margin-block-start:1.1rem}
-.exit-actions button{padding:.6rem .9rem;background:#fff}
+.exit-back{display:inline-block;padding:.6rem .9rem;border:1px solid #b9c3d5;border-radius:999px;background:#fff;text-decoration:none}
 
 .screens{display:grid;grid-template-columns:minmax(0,2.45fr) minmax(0,1fr);gap:14px;background:radial-gradient(ellipse at 83% 0%,#afc8ee,transparent 70%),linear-gradient(150deg,#5476ae,#233861)}
 .history-preview{position:relative;container-type:inline-size;min-width:0;filter:drop-shadow(0 9px 15px #14264450)}

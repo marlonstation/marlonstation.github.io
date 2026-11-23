@@ -81,6 +81,7 @@ const showcaseCopy = {
 const monitorDemo = document.querySelector('.monitor-demo');
 const loadButton = document.querySelector('#demo-load');
 const monitorButtons = [...document.querySelectorAll('[data-monitor-view]')];
+const historyTraceCovers = [...document.querySelectorAll('.history-trace-cover')];
 const readings = {
   cpu: document.querySelector('#demo-cpu'),
   gpu: document.querySelector('#demo-gpu'),
@@ -112,6 +113,15 @@ function selectMonitorView(view) {
     document.getElementById(button.getAttribute('aria-controls')).hidden = !selected;
   }
   loadButton.hidden = view !== 'overlay';
+  for (const cover of historyTraceCovers) {
+    for (const animation of cover.getAnimations()) animation.cancel();
+    if (view === 'history' && !reduceMonitorMotion.matches) {
+      cover.animate(
+        [{clipPath: 'inset(0 0 0 0)'}, {clipPath: 'inset(0 0 0 100%)'}],
+        {duration: 1200, easing: 'cubic-bezier(.35,.05,.35,1)'}
+      );
+    }
+  }
 }
 
 function updateLoadButton() {

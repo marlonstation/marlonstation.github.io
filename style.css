@@ -85,7 +85,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .monitor-demo.is-interactive .widget-frame{width:min(50%,155px)}
 .monitor-demo.is-interactive .demo-stage>div:not([hidden]){animation:preview-in .2s ease-out}
 .monitor-demo .widget-track{position:relative;background:#345571}
-.monitor-demo .widget-track::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--ram-level,80%);border-radius:inherit;background:#54aaff;transition:width .24s ease}
+.monitor-demo .widget-track::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--ram-level,80%);border-radius:inherit;background:#54aaff}
 .demo-actions{display:none}
 .is-interactive .demo-actions{display:grid;gap:8px;padding:12px 16px 14px;background:#14295094}
 .segmented{display:flex;flex-wrap:wrap;gap:5px}
@@ -115,7 +115,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 @media(max-width:780px){.feature{grid-template-columns:1fr}.hero{padding-block:29px 36px}.portrait-wrap{width:min(100%,135px)}}
 @media(max-width:620px){.studio-case{grid-template-columns:1fr}}
 @media(max-width:520px){.hero{grid-template-columns:minmax(0,1fr) 75px;gap:10px;min-height:0}.hero h1{font-size:clamp(2.5rem,11vw,3.5rem);margin:.18em 0}.hero .intro{font-size:1rem}.hero .actions{margin-top:14px}.hero .portrait-wrap{grid-column:2;grid-row:1;align-self:start;margin-top:14px;width:75px}.hero>div:first-child{grid-column:1;grid-row:1}.monitor-demo .demo-stage{min-height:260px}.monitor-demo.is-interactive .widget-frame{width:min(55%,149px)}.monitor-demo .demo-actions{padding-inline:12px}}
-@media(prefers-reduced-motion:reduce){.monitor-demo.is-interactive .demo-stage>div:not([hidden]){animation:none}.monitor-demo .widget-track::before{transition:none}}
+@media(prefers-reduced-motion:reduce){.monitor-demo.is-interactive .demo-stage>div:not([hidden]){animation:none}}
 
 @media(max-width:520px){.feature>.content{grid-row:1}}
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.button,.segmented button{transition:background-color .18s ease,border-color .18s ease,color .18s ease}}
@@ -130,3 +130,5 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .volume-details button{min-height:44px}
 @media(prefers-reduced-motion:reduce){.volume-stage img{transition:none}.volume-stage img[aria-hidden=true]{transform:none}}
 @media(min-width:781px){.mac-apps{grid-auto-rows:1fr}}
+
+.ocean-widget{font-variant-numeric:tabular-nums}

@@ -96,10 +96,13 @@ const showExamples = [
   ['Interstellar', 'sci-fi'], ['The Shawshank Redemption', 'drama']
 ];
 const monitorSamples = {
-  idle: {cpu: 62, gpu: 54, ram: 80, memory: '19.2'},
-  busy: {cpu: 73, gpu: 65, ram: 88, memory: '21.1'}
+  idle: {cpu: 62, gpu: 54, ram: 80, memory: 19.2},
+  busy: {cpu: 73, gpu: 65, ram: 88, memory: 21.1}
 };
 let simulatedLoad = false;
+let displayedReadings = monitorSamples.idle;
+let animationFrame;
+const reduceMonitorMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let copy = showcaseCopy.en;
 
 function selectMonitorView(view) {
@@ -111,16 +114,48 @@ function selectMonitorView(view) {
   loadButton.hidden = view !== 'overlay';
 }
 
-function applyLoad(announce) {
-  const sample = monitorSamples[simulatedLoad ? 'busy' : 'idle'];
+function updateLoadButton() {
   loadButton.setAttribute('aria-pressed', String(simulatedLoad));
   loadButton.textContent = copy[simulatedLoad ? 'reset' : 'load'];
-  readings.cpu.textContent = sample.cpu + '°';
-  readings.gpu.textContent = sample.gpu + '°';
-  readings.ram.textContent = sample.ram + '%';
-  readings.memory.textContent = sample.memory + ' / 24 GiB';
+}
+
+function renderReadings(sample) {
+  displayedReadings = sample;
+  readings.cpu.textContent = Math.round(sample.cpu) + '°';
+  readings.gpu.textContent = Math.round(sample.gpu) + '°';
+  readings.ram.textContent = Math.round(sample.ram) + '%';
+  readings.memory.textContent = sample.memory.toFixed(1) + ' / 24 GiB';
   monitorDemo.style.setProperty('--ram-level', sample.ram + '%');
-  if (announce) readings.summary.textContent = 'CPU ' + sample.cpu + '° · GPU ' + sample.gpu + '° · RAM ' + sample.ram + '%';
+}
+
+function animateLoad() {
+  cancelAnimationFrame(animationFrame);
+  updateLoadButton();
+  const from = displayedReadings;
+  const to = monitorSamples[simulatedLoad ? 'busy' : 'idle'];
+  const duration = 950;
+  let start;
+
+  function finish() {
+    renderReadings(to);
+    readings.summary.textContent = 'CPU ' + to.cpu + '° · GPU ' + to.gpu + '° · RAM ' + to.ram + '%';
+  }
+
+  function frame(now) {
+    start ??= now;
+    const progress = Math.min(1, (now - start) / duration);
+    if (progress === 1 || reduceMonitorMotion.matches) {
+      finish();
+      return;
+    }
+    const eased = progress * progress * (3 - 2 * progress);
+    const between = key => from[key] + (to[key] - from[key]) * eased;
+    renderReadings({cpu: between('cpu'), gpu: between('gpu'), ram: between('ram'), memory: between('memory')});
+    animationFrame = requestAnimationFrame(frame);
+  }
+
+  if (reduceMonitorMotion.matches) finish();
+  else animationFrame = requestAnimationFrame(frame);
 }
 
 function selectGenre(genre) {
@@ -144,7 +179,7 @@ function translateShowcase(language) {
   for (const element of document.querySelectorAll('[data-showcase-label]')) {
     element.setAttribute('aria-label', copy[element.dataset.showcaseLabel]);
   }
-  applyLoad(false);
+  updateLoadButton();
 }
 
 monitorDemo.classList.add('is-interactive');
@@ -152,7 +187,7 @@ selectMonitorView('overlay');
 for (const button of monitorButtons) button.addEventListener('click', () => selectMonitorView(button.dataset.monitorView));
 loadButton.addEventListener('click', () => {
   simulatedLoad = !simulatedLoad;
-  applyLoad(true);
+  animateLoad();
 });
 for (const button of movieButtons) button.addEventListener('click', () => selectGenre(button.dataset.movieGenre));
 document.addEventListener('portfolio:language', event => translateShowcase(event.detail));

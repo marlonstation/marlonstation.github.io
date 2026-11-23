@@ -1,4 +1,46 @@
 window.portfolioTranslations = {
+  de: [
+    "Zum Inhalt springen", "Projekte", "Kontakt", "Softwareentwickler · Brasilien",
+    "Ich entwickle Full-Stack-Anwendungen, native macOS-Software und Spiele. Bei DREAMAR begleite ich Ideen vom ersten funktionsfähigen Prototyp bis zur Veröffentlichung.",
+    "Ausgewählte Projekte ansehen", "Ausgewählte Projekte", "Temperatur- und Speicherverlauf in MonitorMac", "Schwebendes Fenster von MonitorMac",
+    "Ich wollte Temperatur und Speicherauslastung im Blick behalten, ohne meine Arbeit zu unterbrechen. Dafür habe ich eine native App entwickelt, die Live-Werte in der Menüleiste anzeigt und per systemweitem Kurzbefehl ein schwebendes Fenster öffnet.",
+    "Die App zeigt auf Macs mit Apple Silicon CPU- und GPU-Temperaturen, die RAM-Auslastung und den Verlauf der letzten zehn Minuten.",
+    "Quellcode und Installation", "DREAMAR · Android-Spiel",
+    "Wie erhöht man die Herausforderung, ohne die Steuerung komplizierter zu machen? Die Hauptaktion bleibt bei einem Tipp. Timing, Hindernisse und neue Spielmechaniken sorgen für unterschiedliche Schwierigkeitsgrade.",
+    "Full-Stack-Entwicklung", "Ich entwickle Oberflächen, binde APIs an und teste den Ablauf von der Benutzeraktion bis zur Serverantwort. Auf meinem früheren GitHub-Konto finden sich separate Beispiele für Frontend und Backend.",
+    "Selbst entwickelte Spiele", "Eine Auswahl von Spielen, die ich allein prototypisiert und entwickelt habe, vom ersten spielbaren Build bis zur Veröffentlichung.",
+    "Als leitender Programmierer dieses Spiels von Jubei Studio leitete ich das Programmierteam in einer Produktion mit rund 15 Beteiligten. In täglichen Meetings stimmten wir Prioritäten ab, verfolgten den Fortschritt und lösten Blockaden. Außerdem implementierte ich Spielmechaniken und verzweigte Erzählstrukturen in Python und Ren’Py und arbeitete bei der Inhaltsintegration mit Design und Grafik zusammen.",
+    "Auf Steam ansehen", "Programmierwettbewerb", "Ich nahm an der Ausgabe 2026 dieses Programmierwettbewerbs teil, bei dem autonome Bots in rundenbasierten Strategiespielen gegeneinander antreten.",
+    "Wettbewerb ansehen", "Kontakt", "Lass uns reden.", "Sprache", "Softwareentwickler", "Leitender Programmierer · Jubei Studio", "Portfolio"
+  ],
+  ja: [
+    "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
+    "フルスタックアプリ、macOS ネイティブソフトウェア、ゲームを開発しています。DREAMAR では、動作する最初のプロトタイプからリリースまで手がけています。",
+    "制作実績を見る", "主な制作実績", "MonitorMac の温度とメモリの履歴", "MonitorMac のフローティングパネル",
+    "作業を中断せずに温度とメモリの状態を確認したくて、ネイティブアプリを開発しました。メニューバーでリアルタイムの値を確認でき、グローバルショートカットでフローティングパネルを開けます。",
+    "Apple Silicon 搭載の Mac で、CPU と GPU の温度、RAM 使用量、直近 10 分間の履歴を表示します。",
+    "ソースコードとインストール方法", "DREAMAR · Android ゲーム",
+    "操作を複雑にせずに難易度を上げるにはどうすればよいか。基本操作はワンタップのままにして、タイミングや障害物、新しい仕掛けで難易度に変化をつけました。",
+    "フルスタック開発", "画面の実装、API の連携、ユーザー操作からバックエンドの応答までのテストを行います。以前の GitHub アカウントには、フロントエンドとバックエンドそれぞれの実装例があります。",
+    "個人開発のゲーム", "最初にプレイできるバージョンからリリースまで、ひとりで試作・開発したゲームの一部です。",
+    "Jubei Studio のこのゲームでは、約 15 人の制作チームの中で、リードプログラマーとしてプログラミングチームを率いました。毎日のミーティングで優先順位や進捗を確認し、課題を解決しました。また、Python と Ren’Py でゲームプレイや分岐するストーリーの仕組みを実装し、デザイン・アートチームと協力してコンテンツを組み込みました。",
+    "Steam で見る", "プログラミングコンテスト", "自律型ボットがターン制の戦略ゲームで対戦するプログラミングコンテストの 2026 年大会に参加しました。",
+    "大会を見る", "お問い合わせ", "お気軽にご連絡ください。", "言語", "ソフトウェア開発者", "リードプログラマー · Jubei Studio", "ポートフォリオ"
+  ],
+  ru: [
+    "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
+    "Я разрабатываю фулстек-приложения, нативное ПО для macOS и игры. В DREAMAR я довожу идеи от первого рабочего прототипа до выпуска.",
+    "Посмотреть проекты", "Избранные проекты", "История температуры и использования памяти в MonitorMac", "Плавающая панель MonitorMac",
+    "Я хотел следить за температурой и памятью, не прерывая работу. Поэтому я создал нативное приложение с показаниями в строке меню и плавающей панелью, которую можно открыть глобальным сочетанием клавиш.",
+    "На Mac с Apple Silicon приложение показывает температуру CPU и GPU, использование оперативной памяти и историю за последние десять минут.",
+    "Исходный код и установка", "DREAMAR · Игра для Android",
+    "Как повысить сложность, сохранив простое управление? Я оставил основное действие на одном касании, а сложность менял за счёт тайминга, препятствий и новых механик.",
+    "Фулстек-разработка", "Я создаю интерфейсы, подключаю API и проверяю весь путь от действия пользователя до ответа сервера. В моём прежнем аккаунте GitHub есть отдельные примеры фронтенда и бэкенда.",
+    "Игры, разработанные самостоятельно", "Подборка игр, которые я самостоятельно спроектировал и разработал, от первого играбельного прототипа до релиза.",
+    "Как ведущий программист этой игры Jubei Studio я руководил командой разработки в составе продакшена примерно из 15 человек. На ежедневных встречах мы согласовывали приоритеты, отслеживали прогресс и устраняли препятствия. Я также реализовал игровые системы и ветвящийся сюжет на Python и Ren’Py и сотрудничал с дизайнерами и художниками при интеграции контента.",
+    "Посмотреть в Steam", "Соревнование по программированию", "В 2026 году я принял участие в соревновании по программированию, где автономные боты состязаются в пошаговой стратегии.",
+    "Посмотреть соревнование", "Контакты", "Давайте поговорим.", "Язык", "Разработчик ПО", "Ведущий программист · Jubei Studio", "Портфолио"
+  ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
     "Desarrollo aplicaciones full stack, apps nativas para macOS y videojuegos. En DREAMAR, llevo las ideas desde el primer prototipo funcional hasta su lanzamiento.",
@@ -88,6 +130,9 @@ window.portfolioTranslations = {
 };
 
 window.adultConfirmationTranslations = {
+  "de": ["Nur für Personen ab 18 Jahren", "Die Steam-Seite dieses Spiels kann Bilder, Trailer oder Beschreibungen mit sexuellen Inhalten enthalten.", "Im Portfolio bleiben", "Steam öffnen"],
+  "ja": ["18歳以上の方のみ", "このゲームの Steam ページには、性的な内容を含む画像、予告編、説明文が掲載されている場合があります。", "ポートフォリオに戻る", "Steam を開く"],
+  "ru": ["Только для лиц от 18 лет", "На странице этой игры в Steam могут быть изображения, трейлеры или описания сексуального характера.", "Остаться в портфолио", "Открыть Steam"],
   "en": [
     "Adults only (18+)",
     "This game’s Steam page may show images, trailers or descriptions with sexual content.",

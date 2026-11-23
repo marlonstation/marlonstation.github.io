@@ -67,19 +67,19 @@
 <section class="lower" aria-labelledby="steam-title">
 <div><p class="eyebrow">Steam</p><h2 id="steam-title" data-i18n="16" data-pt="Jogos autorais">Solo game development</h2><p class="muted" data-i18n="17" data-pt="Uma seleção dos jogos que prototipei e desenvolvi sozinho, da primeira versão jogável ao lançamento.">A selection of games I prototyped and developed on my own, from the first playable build to release.</p></div>
 <ul class="credits">
-<li><a href="https://steamcommunity.com/app/3087490" data-adult="SimuLOVE! Vol. 1" target="_blank" rel="noopener noreferrer">SimuLOVE! Vol. 1 <span class="credit-meta"><span class="adult-badge" dir="ltr">18+</span><span>Steam</span></span></a></li>
+<li class="adult-credit"><a href="https://steamcommunity.com/app/3087490" data-adult="SimuLOVE! Vol. 1" target="_blank" rel="noopener noreferrer">SimuLOVE! Vol. 1 <span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
 <li><a href="https://store.steampowered.com/app/3855000/ReCall/" target="_blank" rel="noopener noreferrer">Re:Call <span>Steam</span></a></li>
-<li><a href="https://store.steampowered.com/app/3781460/Namorada_de_Aluguel/" data-adult="Rent a Girl" target="_blank" rel="noopener noreferrer">Rent a Girl <span class="credit-meta"><span class="adult-badge" dir="ltr">18+</span><span>Steam</span></span></a></li>
-<li><a href="https://store.steampowered.com/app/3922860/" data-adult="Divine Awakening" target="_blank" rel="noopener noreferrer">Divine Awakening <span class="credit-meta"><span class="adult-badge" dir="ltr">18+</span><span>Steam</span></span></a></li>
+<li class="adult-credit"><a href="https://store.steampowered.com/app/3781460/Namorada_de_Aluguel/" data-adult="Rent a Girl" target="_blank" rel="noopener noreferrer">Rent a Girl <span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
+<li class="adult-credit"><a href="https://store.steampowered.com/app/3922860/" data-adult="Divine Awakening" target="_blank" rel="noopener noreferrer">Divine Awakening <span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
 </ul>
 </section>
 <section class="battle studio" aria-labelledby="studio-title">
 <div>
 <p class="eyebrow" data-i18n="27" data-pt="Lead Programmer · Jubei Studio">Lead Programmer · Jubei Studio</p>
-<h2 id="studio-title">Lilith Rising – Season 2 <span class="adult-badge" dir="ltr">18+</span></h2>
+<h2 id="studio-title">Lilith Rising – Season 2</h2>
 <p data-i18n="18" data-pt="Como Lead Programmer neste jogo da Jubei Studio, liderei um time de programação dentro de uma equipe de produção de cerca de 15 pessoas. Participava das reuniões diárias para alinhar prioridades, acompanhar o progresso e tratar bloqueios. Também implementei sistemas de gameplay e narrativa ramificada com Python e Ren’Py e colaborei com design e arte na integração de conteúdo.">As Lead Programmer on this Jubei Studio title, I led a programming team within a production crew of about 15 people. I took part in daily stand-ups to align priorities, track progress, and address blockers. I also implemented gameplay and branching narrative systems in Python and Ren’Py and worked with design and art to integrate content.</p>
 </div>
-<a href="https://store.steampowered.com/app/2864850/" data-adult="Lilith Rising – Season 2" target="_blank" rel="noopener noreferrer" data-i18n="19" data-pt="Ver na Steam">View on Steam</a>
+<div class="studio-action"><span class="adult-badge" dir="ltr">18+</span><a href="https://store.steampowered.com/app/2864850/" data-adult="Lilith Rising – Season 2" target="_blank" rel="noopener noreferrer" data-i18n="19" data-pt="Ver na Steam">View on Steam</a></div>
 </section>
 <section class="battle" aria-labelledby="battle-title"><div><p class="eyebrow" data-i18n="20" data-pt="Competição de programação">Programming competition</p><h2 id="battle-title">Cambridge Battlecode 2026</h2><p data-i18n="21" data-pt="Participei da edição de 2026, uma competição de programação em que bots autônomos disputam partidas de estratégia por turnos.">I took part in the 2026 edition, a programming competition where autonomous bots compete in a turn-based strategy game.</p></div><a href="https://2026a.battlecode.co.uk/" target="_blank" rel="noopener noreferrer" data-i18n="22" data-pt="Ver competição">View competition</a></section>
 </main>
@@ -87,14 +87,21 @@
 <div><p class="eyebrow" data-i18n="23" data-pt="Contato">Contact</p><h2 data-i18n="24" data-pt="Vamos conversar.">Let’s talk.</h2></div>
 <div class="links"><a href="https://www.linkedin.com/in/marlonrt/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/marlonstation" target="_blank" rel="noopener noreferrer">GitHub</a></div>
 </footer>
-<dialog id="adult-warning" aria-labelledby="adult-title" aria-describedby="adult-message">
-<span class="adult-badge" dir="ltr">18+</span>
-<h2 id="adult-title">Adult content</h2>
+<dialog id="exit-confirmation" aria-labelledby="exit-title" aria-describedby="exit-message">
+<h2 id="exit-title">Leave the portfolio?</h2>
+<p id="exit-message">The external link will open in a new tab.</p>
+<div class="exit-destination">
+<span id="exit-destination-label">Destination</span>
+<strong id="exit-host" dir="ltr"></strong>
+</div>
+<section id="adult-content" aria-labelledby="adult-title" hidden>
+<div class="adult-notice-heading"><span class="adult-badge" dir="ltr">18+</span><h3 id="adult-title">Adult content</h3></div>
 <p id="adult-game" dir="auto"></p>
-<p id="adult-message">This game is for adults. Continuing opens its Steam page in a new tab.</p>
-<div class="adult-actions">
-<form method="dialog"><button id="adult-cancel" type="submit" autofocus>Go back</button></form>
-<a id="adult-continue" class="button" target="_blank" rel="noopener noreferrer">Open Steam</a>
+<p id="adult-message">This game is intended for ages 18 and over.</p>
+</section>
+<div class="exit-actions">
+<form method="dialog"><button id="exit-cancel" type="submit" autofocus>Stay here</button></form>
+<a id="exit-continue" class="button" target="_blank" rel="noopener noreferrer">Open link</a>
 </div>
 </dialog>
 </body>

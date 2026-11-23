@@ -89,50 +89,50 @@ window.portfolioTranslations = {
 
 window.adultConfirmationTranslations = {
   "en": [
-    "Sexual content",
-    "This game’s Steam page may show images, trailers or descriptions with sexual content. It is intended for adults aged 18 and over.",
+    "Adults only (18+)",
+    "This game’s Steam page may show images, trailers or descriptions with sexual content.",
     "Stay here",
     "Open Steam"
   ],
   "pt": [
-    "Conteúdo sexual",
-    "A página deste jogo na Steam pode mostrar imagens, trailers ou descrições com conteúdo sexual. O conteúdo é destinado a maiores de 18 anos.",
+    "Apenas para maiores de 18 anos",
+    "A página deste jogo na Steam pode mostrar imagens, trailers ou descrições com conteúdo sexual.",
     "Ficar no portfólio",
     "Abrir Steam"
   ],
   "es": [
-    "Contenido sexual",
-    "La página de este juego en Steam puede mostrar imágenes, tráilers o descripciones con contenido sexual. Está destinada a personas mayores de 18 años.",
+    "Solo para mayores de 18 años",
+    "La página de este juego en Steam puede mostrar imágenes, tráilers o descripciones con contenido sexual.",
     "Quedarse aquí",
     "Abrir Steam"
   ],
   "fr": [
-    "Contenu à caractère sexuel",
-    "La page Steam de ce jeu peut présenter des images, des bandes-annonces ou des descriptions à caractère sexuel. Elle est réservée aux personnes de 18 ans et plus.",
+    "Réservé aux personnes de 18 ans et plus",
+    "La page Steam de ce jeu peut présenter des images, des bandes-annonces ou des descriptions à caractère sexuel.",
     "Rester ici",
     "Ouvrir Steam"
   ],
   "zh-Hans": [
-    "性内容",
-    "本游戏的 Steam 页面可能包含带有性内容的图片、预告片或文字说明。该页面仅面向年满 18 周岁的人士。",
+    "仅限年满 18 周岁的人士",
+    "本游戏的 Steam 页面可能包含带有性内容的图片、预告片或文字说明。",
     "留在这里",
     "打开 Steam"
   ],
   "hi": [
-    "यौन सामग्री",
-    "इस गेम के Steam पेज पर यौन सामग्री वाली तस्वीरें, ट्रेलर या विवरण हो सकते हैं। यह पेज 18 वर्ष या उससे अधिक उम्र के लोगों के लिए है।",
+    "केवल 18 वर्ष या उससे अधिक उम्र के लोगों के लिए",
+    "इस गेम के Steam पेज पर यौन सामग्री वाली तस्वीरें, ट्रेलर या विवरण हो सकते हैं।",
     "यहीं रहें",
     "Steam खोलें"
   ],
   "ar": [
-    "محتوى جنسي",
-    "قد تعرض صفحة هذه اللعبة على Steam صورًا أو مقاطع دعائية أو أوصافًا تتضمن محتوى جنسيًا. الصفحة مخصصة لمن يبلغون 18 عامًا أو أكثر.",
+    "لمن يبلغون 18 عامًا أو أكثر فقط",
+    "قد تعرض صفحة هذه اللعبة على Steam صورًا أو مقاطع دعائية أو أوصافًا تتضمن محتوى جنسيًا.",
     "البقاء هنا",
     "افتح Steam"
   ],
   "bn": [
-    "যৌন বিষয়বস্তু",
-    "এই গেমের Steam পেজে যৌন বিষয়বস্তু রয়েছে এমন ছবি, ট্রেলার বা বর্ণনা দেখা যেতে পারে। পেজটি ১৮ বছর বা তার বেশি বয়সীদের জন্য।",
+    "শুধু ১৮ বছর বা তার বেশি বয়সীদের জন্য",
+    "এই গেমের Steam পেজে যৌন বিষয়বস্তু রয়েছে এমন ছবি, ট্রেলার বা বর্ণনা দেখা যেতে পারে।",
     "এখানেই থাকুন",
     "Steam খুলুন"
   ]

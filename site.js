@@ -1,7 +1,7 @@
 const localeLinks = Array.from(document.querySelectorAll('[data-lang]'));
 const locales = new Set(localeLinks.map(link => link.dataset.lang));
 const strings = Array.from(document.querySelectorAll('[data-i18n]'), element => {
-  const attribute = element.matches('img') ? 'alt' : element.matches('nav') ? 'aria-label' : null;
+  const attribute = element.matches('img') ? 'alt' : element.hasAttribute('aria-label') ? 'aria-label' : null;
   const english = element.matches('title') ? 'Software Developer' :
     attribute ? element.getAttribute(attribute) : element.textContent;
   return {

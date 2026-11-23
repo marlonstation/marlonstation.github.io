@@ -164,3 +164,15 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .game-credit-title{display:flex;align-items:center;gap:12px;min-width:0}
 .game-credit-title img{display:block;flex:none;width:56px;height:56px;border-radius:10px}
 @media(max-width:420px){.credits a{gap:6px}.credits .adult-credit{gap:5px}.game-credit-title{gap:8px}.game-credit-title img{width:48px;height:48px}}
+
+.studio-case.lilith-case{grid-template-columns:minmax(0,56%) minmax(0,1fr);align-content:center;gap:16px;min-height:480px;overflow:hidden;color:#fff7f5;border-color:#4c232a;background:#230c11 linear-gradient(90deg,#190b0ee8 0%,#190b0ed9 45%,#190b0e38 69%,transparent 100%);background-image:linear-gradient(90deg,#190b0ee8 0%,#190b0ed9 45%,#190b0e38 69%,transparent 100%),url("assets/games/lilith-rising-backdrop.webp");background-size:cover;background-position:center top}
+.lilith-case:dir(rtl){direction:ltr}
+.lilith-case:dir(rtl)>*{direction:rtl}
+.lilith-case .studio-summary,.lilith-case .studio-visual{grid-column:1}
+.lilith-case .studio-summary p:not(.eyebrow){color:#fff3ef}
+.lilith-case .eyebrow,.lilith-case .studio-action a{color:#ffd7c8}
+.lilith-case .branch-demo{gap:10px;padding:12px;background:#1c1016e8;border-color:#b6888977}
+.lilith-case .branch-demo figcaption{color:#f2cdca}
+.lilith-case .branch-node{color:#ffece8;background:#522b34;border-color:#bd8b917a}
+.lilith-case :focus-visible{outline-color:#ffd7c8}
+@media(max-width:720px){.studio-case.lilith-case{grid-template-columns:minmax(0,1fr);min-height:0;padding-top:clamp(146px,44vw,280px);background-image:linear-gradient(180deg,#230c1100 0,#230c1112 120px,#230c11ed 240px,#230c11 335px),url("assets/games/lilith-rising-backdrop.webp");background-size:100% 100%,auto clamp(295px,68vw,430px);background-position:center top,right top;background-repeat:no-repeat}}

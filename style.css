@@ -124,6 +124,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .mac-apps{display:grid;gap:16px}
 .monitor-demo .volume-stage{display:grid;place-items:center}
 .volume-stage img{grid-area:1/1;display:block;width:min(100%,360px);height:auto;border-radius:12px;box-shadow:0 10px 24px #14274942;filter:sepia(1) hue-rotate(165deg) saturate(1.15) brightness(.94);transition:opacity .24s ease,transform .24s ease,visibility .24s}
+.volume-stage #volume-routing{filter:none}
 .volume-stage img[aria-hidden=true]{opacity:0;transform:translateY(6px);visibility:hidden}
 .volume-details:not([hidden]){display:flex;justify-content:center;padding:8px 12px;background:#14295094}
 .volume-details .segmented{justify-content:center}

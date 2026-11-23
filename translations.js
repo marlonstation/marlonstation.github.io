@@ -19,9 +19,10 @@ window.portfolioTranslations = {
     "macOS-Apps",
     "Spiele",
     "Backend",
-    "Schwebenden Kurzbefehl vergrößern",
-    "Beispiel mit unterschiedlicher Ausgabe pro App",
-    "Browser und Musikplayer mit unterschiedlichen Audioausgaben"
+    "Schwebender Kurzbefehl",
+    "Ausgabe pro App",
+    "Browser und Musikplayer mit unterschiedlichen Audioausgaben",
+    "Mixer"
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -43,9 +44,10 @@ window.portfolioTranslations = {
     "macOS アプリ",
     "ゲーム",
     "バックエンド",
-    "フローティングショートカットを拡大",
-    "アプリごとに出力先を分けた例",
-    "ブラウザーと音楽プレーヤーで異なる出力先を選択した画面"
+    "フローティングショートカット",
+    "アプリ別の出力",
+    "ブラウザーと音楽プレーヤーで異なる出力先を選択した画面",
+    "ミキサー"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -67,9 +69,10 @@ window.portfolioTranslations = {
     "Приложения macOS",
     "Игры",
     "Бэкенд",
-    "Увеличить плавающий значок",
-    "Пример с разными устройствами вывода для приложений",
-    "Браузер и музыкальный плеер с разными устройствами вывода"
+    "Плавающий значок",
+    "Выход для приложения",
+    "Браузер и музыкальный плеер с разными устройствами вывода",
+    "Микшер"
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -92,9 +95,10 @@ window.portfolioTranslations = {
     "Apps para macOS",
     "Juegos",
     "Backend",
-    "Ampliar el atajo flotante",
-    "Ejemplo con distintas salidas por aplicación",
-    "Navegador y reproductor de música con distintas salidas de audio"
+    "Atajo flotante",
+    "Salida por aplicación",
+    "Navegador y reproductor de música con distintas salidas de audio",
+    "Mezclador"
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -117,9 +121,10 @@ window.portfolioTranslations = {
     "Apps macOS",
     "Jeux",
     "Backend",
-    "Agrandir le raccourci flottant",
-    "Exemple avec des sorties différentes par application",
-    "Navigateur et lecteur de musique avec des sorties audio différentes"
+    "Raccourci flottant",
+    "Sortie par application",
+    "Navigateur et lecteur de musique avec des sorties audio différentes",
+    "Mixeur"
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -141,9 +146,10 @@ window.portfolioTranslations = {
     "macOS 应用",
     "游戏",
     "后端",
-    "放大浮动快捷图标",
-    "为不同应用选择不同输出的示例",
-    "浏览器和音乐播放器分别选择了不同的音频输出"
+    "浮动快捷图标",
+    "按应用选择输出",
+    "浏览器和音乐播放器分别选择了不同的音频输出",
+    "混音器"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -165,9 +171,10 @@ window.portfolioTranslations = {
     "macOS ऐप",
     "गेम",
     "बैकएंड",
-    "फ़्लोटिंग शॉर्टकट बड़ा करें",
-    "अलग-अलग ऐप के लिए अलग आउटपुट का उदाहरण",
-    "ब्राउज़र और म्यूज़िक प्लेयर के लिए अलग ऑडियो आउटपुट चुने गए हैं"
+    "फ़्लोटिंग शॉर्टकट",
+    "ऐप के अनुसार आउटपुट",
+    "ब्राउज़र और म्यूज़िक प्लेयर के लिए अलग ऑडियो आउटपुट चुने गए हैं",
+    "मिक्सर"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -189,9 +196,10 @@ window.portfolioTranslations = {
     "تطبيقات macOS",
     "الألعاب",
     "تطوير الواجهة الخلفية",
-    "تكبير الاختصار العائم",
-    "مثال على اختيار مخرج مختلف لكل تطبيق",
-    "المتصفح ومشغل الموسيقى مع تحديد مخرج صوت مختلف لكل منهما"
+    "الاختصار العائم",
+    "المخرج لكل تطبيق",
+    "المتصفح ومشغل الموسيقى مع تحديد مخرج صوت مختلف لكل منهما",
+    "مازج الصوت"
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -213,9 +221,10 @@ window.portfolioTranslations = {
     "macOS অ্যাপ",
     "গেম",
     "ব্যাকএন্ড",
-    "ভাসমান শর্টকাট বড় করে দেখুন",
-    "অ্যাপভেদে আলাদা আউটপুটের উদাহরণ",
-    "ব্রাউজার ও মিউজিক প্লেয়ারে আলাদা অডিও আউটপুট নির্বাচিত"
+    "ভাসমান শর্টকাট",
+    "অ্যাপভিত্তিক আউটপুট",
+    "ব্রাউজার ও মিউজিক প্লেয়ারে আলাদা অডিও আউটপুট নির্বাচিত",
+    "মিক্সার"
   ]
 };
 

@@ -11,9 +11,9 @@
 <meta property="og:description" content="Selected work in full-stack development, native macOS apps, and games.">
 <meta property="og:image" content="https://marlonstation.github.io/assets/metrics-history.png">
 <title data-i18n="26" data-pt="Desenvolvedor de software">Marlon Ribeiro — Software Developer</title>
-<link rel="stylesheet" href="style.css?v=mac-cards">
-<script src="translations.js?v=work-areas" defer></script>
-<script src="site.js?v=project-cases" defer></script>
+<link rel="stylesheet" href="style.css?v=volume-preview">
+<script src="translations.js?v=volume-preview" defer></script>
+<script src="site.js?v=volume-preview" defer></script>
 <script src="showcase.js" defer></script>
 </head>
 <body>
@@ -100,11 +100,16 @@
 <article class="feature volume-feature" aria-labelledby="volume-title">
 <figure class="monitor-demo volume-preview">
 <div class="demo-stage volume-stage">
-<img src="assets/volumemac-mixer.png" width="360" height="238" loading="lazy" alt="VolumeMac mixer in the macOS menu bar" data-i18n="29" data-alt-pt="Mixer do VolumeMac na barra de menus do macOS">
+<img id="volume-mixer" src="assets/volumemac-mixer.png" width="360" height="238" loading="lazy" alt="VolumeMac mixer in the macOS menu bar" data-i18n="29" data-alt-pt="Mixer do VolumeMac na barra de menus do macOS">
+<img id="volume-shortcut" src="assets/volumemac-shortcut.png" width="302" height="195" loading="lazy" aria-hidden="true" alt="VolumeMac floating shortcut with its controls open" data-i18n="30" data-alt-pt="Atalho flutuante do VolumeMac com os controles abertos">
+<img id="volume-routing" src="assets/volumemac-routing.png" width="328" height="208" loading="lazy" aria-hidden="true" alt="App Volume rows with different outputs selected" data-i18n="38" data-alt-pt="Exemplo de apps com saídas de áudio diferentes selecionadas">
 </div>
-<figcaption class="demo-actions volume-details">
-<a href="assets/volumemac-shortcut.png" data-i18n="36" data-pt="Ampliar atalho flutuante">Enlarge floating shortcut</a>
-<a href="assets/volumemac-routing.png" data-i18n="37" data-pt="Exemplo com saídas diferentes por app">Example with different outputs per app</a>
+<figcaption class="volume-details" hidden>
+<div class="segmented" role="group" aria-label="VolumeMac">
+<button type="button" aria-controls="volume-mixer" aria-pressed="true" data-i18n="39" data-pt="Mixer">Mixer</button>
+<button type="button" aria-controls="volume-shortcut" aria-pressed="false" data-i18n="36" data-pt="Atalho flutuante">Floating shortcut</button>
+<button type="button" aria-controls="volume-routing" aria-pressed="false" data-i18n="37" data-pt="Saída por app">Per-app output</button>
+</div>
 </figcaption>
 </figure>
 <div class="content"><p class="eyebrow">Swift · SwiftUI · AppKit · Core Audio</p><h3 id="volume-title">VolumeMac</h3>

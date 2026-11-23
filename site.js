@@ -70,3 +70,18 @@ for (const link of localeLinks) {
 
 window.addEventListener('popstate', applyURL);
 applyURL();
+
+const volumeControls = document.querySelector('.volume-details');
+if (volumeControls) {
+  const buttons = Array.from(volumeControls.querySelectorAll('button[aria-controls]'));
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      for (const option of buttons) {
+        const active = option === button;
+        option.setAttribute('aria-pressed', String(active));
+        document.getElementById(option.getAttribute('aria-controls')).setAttribute('aria-hidden', String(!active));
+      }
+    });
+  }
+  volumeControls.hidden = false;
+}

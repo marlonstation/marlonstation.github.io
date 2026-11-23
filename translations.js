@@ -11,7 +11,11 @@ window.portfolioTranslations = {
     "Selbst entwickelte Spiele", "Eine Auswahl von Spielen, die ich allein prototypisiert und entwickelt habe, vom ersten spielbaren Build bis zur Veröffentlichung.",
     "Als leitender Programmierer dieses Spiels von Jubei Studio leitete ich das Programmierteam in einer Produktion mit rund 15 Beteiligten. In täglichen Meetings stimmten wir Prioritäten ab, verfolgten den Fortschritt und lösten Blockaden. Außerdem implementierte ich Spielmechaniken und verzweigte Erzählstrukturen in Python und Ren’Py und arbeitete bei der Inhaltsintegration mit Design und Grafik zusammen.",
     "Auf Steam ansehen", "Programmierwettbewerb", "Ich nahm an der Ausgabe 2026 dieses Programmierwettbewerbs teil, bei dem autonome Bots in rundenbasierten Strategiespielen gegeneinander antreten.",
-    "Wettbewerb ansehen", "Kontakt", "Lass uns reden.", "Sprache", "Softwareentwickler", "Leitender Programmierer · Jubei Studio", "Portfolio"
+    "Wettbewerb ansehen", "Kontakt", "Lass uns reden.", "Sprache", "Softwareentwickler", "Leitender Programmierer · Jubei Studio", "Portfolio",
+    "VolumeMac-Mixer in der macOS-Menüleiste",
+    "Schwebender VolumeMac-Kurzbefehl mit geöffneten Reglern",
+    "Ich habe einen kompakten Mixer entwickelt, um die Audioausgabe zu wechseln und die Mikrofonverstärkung in der macOS-Menüleiste einzustellen. Ein optionaler schwebender Kurzbefehl öffnet die Regler direkt neben seinem Symbol.",
+    "Im Prototyp lassen sich Lautstärke und Ausgabe pro App einstellen, ohne die Standardausgabe des Macs zu ändern. Diese Einstellungen sind experimentell."
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -25,7 +29,11 @@ window.portfolioTranslations = {
     "個人開発のゲーム", "最初にプレイできるバージョンからリリースまで、ひとりで試作・開発したゲームの一部です。",
     "Jubei Studio のこのゲームでは、約 15 人の制作チームの中で、リードプログラマーとしてプログラミングチームを率いました。毎日のミーティングで優先順位や進捗を確認し、課題を解決しました。また、Python と Ren’Py でゲームプレイや分岐するストーリーの仕組みを実装し、デザイン・アートチームと協力してコンテンツを組み込みました。",
     "Steam で見る", "プログラミングコンテスト", "自律型ボットがターン制の戦略ゲームで対戦するプログラミングコンテストの 2026 年大会に参加しました。",
-    "大会を見る", "お問い合わせ", "お気軽にご連絡ください。", "言語", "ソフトウェア開発者", "リードプログラマー · Jubei Studio", "ポートフォリオ"
+    "大会を見る", "お問い合わせ", "お気軽にご連絡ください。", "言語", "ソフトウェア開発者", "リードプログラマー · Jubei Studio", "ポートフォリオ",
+    "macOS のメニューバーにある VolumeMac ミキサー",
+    "操作パネルを開いた VolumeMac のフローティングショートカット",
+    "macOS のメニューバーから音声の出力先を切り替え、マイクのゲインを調整できる小型ミキサーを作りました。フローティングショートカットを有効にすると、アイコンの隣に操作パネルが開きます。",
+    "試作版では、Mac のデフォルト出力を変更せずに、アプリごとに音量と出力先を設定できます。アプリごとの操作は実験的な機能です。"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -39,7 +47,11 @@ window.portfolioTranslations = {
     "Игры, разработанные самостоятельно", "Подборка игр, которые я самостоятельно спроектировал и разработал, от первого играбельного прототипа до релиза.",
     "Как ведущий программист этой игры Jubei Studio я руководил командой разработки в составе продакшена примерно из 15 человек. На ежедневных встречах мы согласовывали приоритеты, отслеживали прогресс и устраняли препятствия. Я также реализовал игровые системы и ветвящийся сюжет на Python и Ren’Py и сотрудничал с дизайнерами и художниками при интеграции контента.",
     "Посмотреть в Steam", "Соревнование по программированию", "В 2026 году я принял участие в соревновании по программированию, где автономные боты состязаются в пошаговой стратегии.",
-    "Посмотреть соревнование", "Контакты", "Давайте поговорим.", "Язык", "Разработчик ПО", "Ведущий программист · Jubei Studio", "Портфолио"
+    "Посмотреть соревнование", "Контакты", "Давайте поговорим.", "Язык", "Разработчик ПО", "Ведущий программист · Jubei Studio", "Портфолио",
+    "Микшер VolumeMac в строке меню macOS",
+    "Плавающий значок VolumeMac с открытой панелью управления",
+    "Я создал компактный микшер, чтобы переключать устройства вывода и регулировать усиление микрофона прямо из строки меню macOS. При желании можно включить плавающий значок, рядом с которым открываются элементы управления.",
+    "В прототипе также можно настроить громкость и выбрать устройство вывода для каждого приложения, не меняя выход Mac по умолчанию. Эти функции пока экспериментальные."
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -54,7 +66,11 @@ window.portfolioTranslations = {
     "Videojuegos de autor", "Una selección de juegos que prototipé y desarrollé por mi cuenta, desde la primera versión jugable hasta el lanzamiento.",
     "Como programador principal de este juego de Jubei Studio, dirigí al equipo de programación dentro de una producción de unas 15 personas. Participé en reuniones diarias para acordar prioridades, seguir el progreso y resolver bloqueos. También implementé sistemas de juego y narrativa ramificada con Python y Ren’Py, y colaboré con diseño y arte para integrar el contenido.",
     "Ver en Steam", "Competición de programación", "Participé en la edición de 2026, una competición de programación en la que bots autónomos se enfrentan en partidas de estrategia por turnos.",
-    "Ver competición", "Contacto", "Hablemos.", "Idioma", "Desarrollador de software", "Programador principal · Jubei Studio", "Portafolio"
+    "Ver competición", "Contacto", "Hablemos.", "Idioma", "Desarrollador de software", "Programador principal · Jubei Studio", "Portafolio",
+    "Mezclador de VolumeMac en la barra de menús de macOS",
+    "Atajo flotante de VolumeMac con los controles abiertos",
+    "Creé un mezclador compacto para cambiar la salida de audio y ajustar la ganancia del micrófono desde la barra de menús de macOS. Un atajo flotante opcional abre los controles junto a su icono.",
+    "El prototipo también permite ajustar el volumen y elegir una salida para cada aplicación sin cambiar la configuración de salida predeterminada del Mac. Estos controles por aplicación son experimentales."
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -69,7 +85,11 @@ window.portfolioTranslations = {
     "Jeux développés en solo", "Une sélection de jeux que j’ai prototypés et développés seul, de la première version jouable jusqu’à la sortie.",
     "En tant que programmeur principal sur ce jeu de Jubei Studio, j’ai dirigé l’équipe de programmation au sein d’une production d’environ 15 personnes. J’ai participé aux réunions quotidiennes pour définir les priorités, suivre l’avancement et résoudre les blocages. J’ai aussi développé des systèmes de gameplay et de narration à embranchements en Python et Ren’Py, et collaboré avec les équipes de design et d’illustration pour intégrer le contenu.",
     "Voir sur Steam", "Concours de programmation", "J’ai participé à l’édition 2026 de ce concours de programmation, où des bots autonomes s’affrontent dans des parties de stratégie au tour par tour.",
-    "Voir le concours", "Contact", "Parlons-en.", "Langue", "Développeur logiciel", "Programmeur principal · Jubei Studio", "Portfolio"
+    "Voir le concours", "Contact", "Parlons-en.", "Langue", "Développeur logiciel", "Programmeur principal · Jubei Studio", "Portfolio",
+    "Mixeur VolumeMac dans la barre des menus de macOS",
+    "Raccourci flottant de VolumeMac avec ses commandes ouvertes",
+    "J’ai créé un mixeur compact pour changer la sortie audio et régler le gain du micro depuis la barre des menus de macOS. Un raccourci flottant facultatif ouvre les commandes à côté de son icône.",
+    "Le prototype permet aussi de régler le volume et de choisir une sortie pour chaque application sans modifier la sortie par défaut du Mac. Ces commandes par application sont expérimentales."
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -83,7 +103,11 @@ window.portfolioTranslations = {
     "独立开发的游戏", "这些是我独立制作原型并开发的部分游戏，从首个可玩版本到正式发布都由我完成。",
     "在 Jubei Studio 的这款游戏中，我担任主程序员，在约 15 人的制作团队中带领程序组。我参加每日例会，协调优先级、跟进进度并解决阻碍。我还用 Python 和 Ren’Py 实现了玩法和分支叙事系统，并与设计和美术团队合作整合内容。",
     "在 Steam 上查看", "编程竞赛", "我参加了 2026 年的这项编程竞赛。参赛者编写的自主机器人在回合制策略游戏中对战。",
-    "查看竞赛", "联系", "欢迎联系。", "语言", "软件开发者", "主程序员 · Jubei Studio", "作品集"
+    "查看竞赛", "联系", "欢迎联系。", "语言", "软件开发者", "主程序员 · Jubei Studio", "作品集",
+    "macOS 菜单栏中的 VolumeMac 混音器",
+    "打开控制面板的 VolumeMac 浮动快捷图标",
+    "我开发了一款小巧的混音器，可以直接在 macOS 菜单栏切换音频输出并调整麦克风增益。启用浮动快捷图标后，控制面板会在图标旁打开。",
+    "原型还可为每个应用单独调整音量并选择输出设备，而无需更改 Mac 的默认输出。按应用控制目前仍是实验功能。"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -97,7 +121,11 @@ window.portfolioTranslations = {
     "स्वतंत्र रूप से बनाए गए गेम", "ये उन गेमों में से कुछ हैं जिनके प्रोटोटाइप मैंने खुद बनाए और जिन्हें पहले खेलने योग्य बिल्ड से रिलीज़ तक अकेले विकसित किया।",
     "Jubei Studio के इस गेम में लीड प्रोग्रामर के तौर पर मैंने लगभग 15 लोगों की प्रोडक्शन टीम के भीतर प्रोग्रामिंग टीम का नेतृत्व किया। प्राथमिकताएँ तय करने, प्रगति देखने और रुकावटें दूर करने के लिए मैं रोज़ की बैठकों में शामिल हुआ। मैंने Python और Ren’Py में गेमप्ले और शाखाओं वाली कहानी के सिस्टम बनाए और कंटेंट जोड़ने के लिए डिज़ाइन और आर्ट टीमों के साथ काम किया।",
     "Steam पर देखें", "प्रोग्रामिंग प्रतियोगिता", "मैंने 2026 की इस प्रोग्रामिंग प्रतियोगिता में भाग लिया, जिसमें स्वायत्त बॉट बारी-बारी से खेले जाने वाले रणनीति गेम में मुकाबला करते हैं।",
-    "प्रतियोगिता देखें", "संपर्क", "आइए बात करें।", "भाषा", "सॉफ़्टवेयर डेवलपर", "लीड प्रोग्रामर · Jubei Studio", "पोर्टफ़ोलियो"
+    "प्रतियोगिता देखें", "संपर्क", "आइए बात करें।", "भाषा", "सॉफ़्टवेयर डेवलपर", "लीड प्रोग्रामर · Jubei Studio", "पोर्टफ़ोलियो",
+    "macOS मेनू बार में VolumeMac मिक्सर",
+    "खुले नियंत्रणों के साथ VolumeMac का फ़्लोटिंग शॉर्टकट",
+    "मैंने macOS मेनू बार से ऑडियो आउटपुट बदलने और माइक्रोफ़ोन का गेन समायोजित करने के लिए एक छोटा मिक्सर बनाया। वैकल्पिक फ़्लोटिंग शॉर्टकट अपने आइकन के पास ही नियंत्रण खोलता है।",
+    "इस प्रोटोटाइप में Mac का डिफ़ॉल्ट आउटपुट बदले बिना हर ऐप का वॉल्यूम और आउटपुट चुना जा सकता है। हर ऐप के लिए ये नियंत्रण अभी प्रायोगिक हैं।"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -111,7 +139,11 @@ window.portfolioTranslations = {
     "ألعاب طوّرتها بمفردي", "مجموعة من الألعاب التي صمّمت نماذجها الأولية وطوّرتها بمفردي، من أول نسخة قابلة للعب إلى الإصدار.",
     "بصفتي المبرمج الرئيسي لهذه اللعبة من Jubei Studio، قدت فريق البرمجة ضمن فريق إنتاج يضم نحو 15 شخصًا. شاركت في الاجتماعات اليومية لتنسيق الأولويات ومتابعة التقدم ومعالجة العقبات. وطوّرت أنظمة اللعب والسرد المتشعّب باستخدام Python وRen’Py، وتعاونت مع فريقي التصميم والفن لدمج المحتوى.",
     "اعرض على Steam", "مسابقة برمجة", "شاركت في نسخة 2026 من مسابقة البرمجة هذه، حيث تتنافس روبوتات مستقلة في لعبة استراتيجية قائمة على الأدوار.",
-    "اعرض المسابقة", "التواصل", "لنتحدّث.", "اللغة", "مطوّر برمجيات", "المبرمج الرئيسي · Jubei Studio", "معرض الأعمال"
+    "اعرض المسابقة", "التواصل", "لنتحدّث.", "اللغة", "مطوّر برمجيات", "المبرمج الرئيسي · Jubei Studio", "معرض الأعمال",
+    "مازج VolumeMac في شريط قوائم macOS",
+    "اختصار VolumeMac العائم مع ظهور عناصر التحكم",
+    "طوّرت مازجًا صغيرًا لتبديل مخرج الصوت وضبط كسب الميكروفون من شريط قوائم macOS. يفتح الاختصار العائم الاختياري عناصر التحكم بجانب أيقونته.",
+    "يتيح النموذج الأولي أيضًا ضبط مستوى الصوت واختيار مخرج لكل تطبيق دون تغيير المخرج الافتراضي لجهاز Mac. هذه الميزة لكل تطبيق تجريبية."
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -125,7 +157,11 @@ window.portfolioTranslations = {
     "এককভাবে তৈরি গেম", "প্রথম খেলার উপযোগী সংস্করণ থেকে প্রকাশ পর্যন্ত আমি একাই প্রোটোটাইপ ও ডেভেলপ করেছি, এমন কয়েকটি গেম।",
     "Jubei Studio-এর এই গেমে প্রধান প্রোগ্রামার হিসেবে প্রায় ১৫ জনের প্রোডাকশন দলের মধ্যে প্রোগ্রামিং দলকে নেতৃত্ব দিয়েছি। অগ্রাধিকার ঠিক করতে, অগ্রগতি দেখতে ও বাধা দূর করতে প্রতিদিনের বৈঠকে অংশ নিয়েছি। Python ও Ren’Py দিয়ে গেমপ্লে ও শাখায় বিভক্ত গল্পের সিস্টেমও তৈরি করেছি এবং বিষয়বস্তু যুক্ত করতে ডিজাইন ও আর্ট দলের সঙ্গে কাজ করেছি।",
     "Steam-এ দেখুন", "প্রোগ্রামিং প্রতিযোগিতা", "আমি এই প্রোগ্রামিং প্রতিযোগিতার ২০২৬ সংস্করণে অংশ নিয়েছিলাম। সেখানে স্বয়ংক্রিয় বটগুলো পালাভিত্তিক কৌশল গেমে প্রতিদ্বন্দ্বিতা করে।",
-    "প্রতিযোগিতা দেখুন", "যোগাযোগ", "কথা বলি।", "ভাষা", "সফটওয়্যার ডেভেলপার", "প্রধান প্রোগ্রামার · Jubei Studio", "পোর্টফোলিও"
+    "প্রতিযোগিতা দেখুন", "যোগাযোগ", "কথা বলি।", "ভাষা", "সফটওয়্যার ডেভেলপার", "প্রধান প্রোগ্রামার · Jubei Studio", "পোর্টফোলিও",
+    "macOS মেনু বারে VolumeMac মিক্সার",
+    "নিয়ন্ত্রণ খোলা অবস্থায় VolumeMac-এর ভাসমান শর্টকাট",
+    "macOS মেনু বার থেকে অডিও আউটপুট বদলাতে ও মাইক্রোফোনের গেইন ঠিক করতে একটি ছোট মিক্সার তৈরি করেছি। চাইলে ভাসমান শর্টকাট চালু করা যায়, যা আইকনের পাশেই নিয়ন্ত্রণগুলো খুলে দেয়।",
+    "প্রোটোটাইপে Mac-এর ডিফল্ট আউটপুট না বদলিয়েই প্রতিটি অ্যাপের ভলিউম ও আউটপুট নির্ধারণ করা যায়। অ্যাপভিত্তিক এই নিয়ন্ত্রণগুলো পরীক্ষামূলক।"
   ]
 };
 

@@ -47,3 +47,35 @@ for (const link of localeLinks) {
 
 window.addEventListener('popstate', applyURL);
 applyURL();
+
+const warning = document.querySelector('#adult-warning');
+const warningGame = document.querySelector('#adult-game');
+const warningContinue = document.querySelector('#adult-continue');
+const warningFields = ['adult-title', 'adult-message', 'adult-cancel', 'adult-continue'];
+let warningTrigger;
+
+function showAdultWarning(event) {
+  if (event.defaultPrevented || (event.type === 'auxclick' && event.button !== 1) ||
+      typeof warning.showModal !== 'function') return;
+
+  event.preventDefault();
+  const link = event.currentTarget;
+  const language = document.documentElement.lang === 'pt-BR' ? 'pt' : document.documentElement.lang;
+  const translations = window.adultWarningTranslations;
+  const labels = translations[language] ?? translations.en;
+  warningFields.forEach((id, index) => {
+    document.getElementById(id).textContent = labels[index];
+  });
+  warningGame.textContent = link.dataset.adult;
+  warningContinue.href = link.href;
+  warningTrigger = link;
+  warning.showModal();
+}
+
+for (const link of document.querySelectorAll('[data-adult]')) {
+  link.addEventListener('click', showAdultWarning);
+  link.addEventListener('auxclick', showAdultWarning);
+}
+
+warningContinue.addEventListener('click', () => warning.close());
+warning.addEventListener('close', () => warningTrigger?.focus());

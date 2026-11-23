@@ -86,3 +86,14 @@ window.portfolioTranslations = {
     "প্রতিযোগিতা দেখুন", "যোগাযোগ", "কথা বলি।", "ভাষা", "সফটওয়্যার ডেভেলপার", "প্রধান প্রোগ্রামার · Jubei Studio", "পোর্টফোলিও"
   ]
 };
+
+window.adultWarningTranslations = {
+  en: ["Adult content", "This game is for adults. Continuing opens its Steam page in a new tab.", "Go back", "Open Steam"],
+  pt: ["Conteúdo adulto", "Este jogo é destinado a maiores de 18 anos. Ao continuar, a página da Steam abre em outra aba.", "Voltar", "Abrir Steam"],
+  es: ["Contenido para adultos", "Este juego está destinado a mayores de 18 años. Si continúas, se abrirá su página de Steam en otra pestaña.", "Volver", "Abrir Steam"],
+  fr: ["Contenu pour adultes", "Ce jeu est réservé aux personnes de 18 ans et plus. En continuant, vous ouvrirez sa page Steam dans un nouvel onglet.", "Revenir", "Ouvrir Steam"],
+  "zh-Hans": ["成人内容", "本游戏仅适合年满 18 周岁的玩家。继续后将在新标签页打开 Steam 页面。", "返回", "打开 Steam"],
+  hi: ["वयस्क सामग्री", "यह गेम 18 वर्ष या उससे अधिक उम्र के लोगों के लिए है। आगे बढ़ने पर इसका Steam पेज नए टैब में खुलेगा।", "वापस जाएँ", "Steam खोलें"],
+  ar: ["محتوى للبالغين", "هذه اللعبة مخصصة لمن يبلغون 18 عامًا أو أكثر. عند المتابعة ستُفتح صفحتها على Steam في علامة تبويب جديدة.", "رجوع", "افتح Steam"],
+  bn: ["প্রাপ্তবয়স্কদের জন্য", "এই গেমটি ১৮ বছর বা তার বেশি বয়সীদের জন্য। এগিয়ে গেলে এর Steam পেজটি নতুন ট্যাবে খুলবে।", "ফিরে যান", "Steam খুলুন"]
+};

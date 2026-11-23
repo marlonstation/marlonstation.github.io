@@ -22,7 +22,8 @@ window.portfolioTranslations = {
     "Schwebender Kurzbefehl",
     "Ausgabe pro App",
     "Browser und Musikplayer mit unterschiedlichen Audioausgaben",
-    "Mixer"
+    "Mixer",
+    "Interaktive Demo mit Beispielgeräten"
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -47,7 +48,8 @@ window.portfolioTranslations = {
     "フローティングショートカット",
     "アプリ別の出力",
     "ブラウザーと音楽プレーヤーで異なる出力先を選択した画面",
-    "ミキサー"
+    "ミキサー",
+    "サンプル機器を使った操作デモ"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -72,7 +74,8 @@ window.portfolioTranslations = {
     "Плавающий значок",
     "Выход для приложения",
     "Браузер и музыкальный плеер с разными устройствами вывода",
-    "Микшер"
+    "Микшер",
+    "Интерактивная демонстрация с примерами устройств"
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -98,7 +101,8 @@ window.portfolioTranslations = {
     "Atajo flotante",
     "Salida por aplicación",
     "Navegador y reproductor de música con distintas salidas de audio",
-    "Mezclador"
+    "Mezclador",
+    "Demostración interactiva con dispositivos de ejemplo"
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -124,7 +128,8 @@ window.portfolioTranslations = {
     "Raccourci flottant",
     "Sortie par application",
     "Navigateur et lecteur de musique avec des sorties audio différentes",
-    "Mixeur"
+    "Mixeur",
+    "Démo interactive avec des appareils de test"
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -149,7 +154,8 @@ window.portfolioTranslations = {
     "浮动快捷图标",
     "按应用选择输出",
     "浏览器和音乐播放器分别选择了不同的音频输出",
-    "混音器"
+    "混音器",
+    "使用示例设备的交互演示"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -174,7 +180,8 @@ window.portfolioTranslations = {
     "फ़्लोटिंग शॉर्टकट",
     "ऐप के अनुसार आउटपुट",
     "ब्राउज़र और म्यूज़िक प्लेयर के लिए अलग ऑडियो आउटपुट चुने गए हैं",
-    "मिक्सर"
+    "मिक्सर",
+    "उदाहरण डिवाइस के साथ इंटरैक्टिव डेमो"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -199,7 +206,8 @@ window.portfolioTranslations = {
     "الاختصار العائم",
     "المخرج لكل تطبيق",
     "المتصفح ومشغل الموسيقى مع تحديد مخرج صوت مختلف لكل منهما",
-    "مازج الصوت"
+    "مازج الصوت",
+    "عرض تفاعلي باستخدام أجهزة تجريبية"
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -224,7 +232,8 @@ window.portfolioTranslations = {
     "ভাসমান শর্টকাট",
     "অ্যাপভিত্তিক আউটপুট",
     "ব্রাউজার ও মিউজিক প্লেয়ারে আলাদা অডিও আউটপুট নির্বাচিত",
-    "মিক্সার"
+    "মিক্সার",
+    "নমুনা ডিভাইসসহ ইন্টারঅ্যাক্টিভ ডেমো"
   ]
 };
 

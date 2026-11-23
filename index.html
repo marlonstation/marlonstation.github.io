@@ -11,9 +11,9 @@
 <meta property="og:description" content="Selected work in full-stack development, native macOS apps, and games.">
 <meta property="og:image" content="https://marlonstation.github.io/assets/metrics-history.png">
 <title data-i18n="26" data-pt="Desenvolvedor de software">Marlon Ribeiro — Software Developer</title>
-<link rel="stylesheet" href="style.css?v=game-art">
-<script src="translations.js?v=volume-preview" defer></script>
-<script src="site.js?v=volume-preview" defer></script>
+<link rel="stylesheet" href="style.css?v=interactive-mixer">
+<script src="translations.js?v=interactive-mixer" defer></script>
+<script src="site.js?v=interactive-mixer" defer></script>
 <script src="showcase.js?v=history-motion" defer></script>
 </head>
 <body>
@@ -100,19 +100,40 @@
 <div class="links"><a href="https://github.com/marlonstation/MonitorMac" target="_blank" rel="noopener noreferrer" data-i18n="11" data-pt="Ver código e como compilar">Source and build instructions</a></div></div>
 </article>
 <article class="feature volume-feature" aria-labelledby="volume-title">
-<figure class="monitor-demo volume-preview">
-<div class="demo-stage volume-stage">
-<img id="volume-mixer" aria-hidden="true" src="assets/volumemac-mixer.png" width="360" height="238" loading="lazy" alt="VolumeMac mixer in the macOS menu bar" data-i18n="29" data-alt-pt="Mixer do VolumeMac na barra de menus do macOS">
-<img id="volume-shortcut" src="assets/volumemac-shortcut.png" width="302" height="195" loading="lazy" aria-hidden="true" alt="VolumeMac floating shortcut with its controls open" data-i18n="30" data-alt-pt="Atalho flutuante do VolumeMac com os controles abertos">
-<img id="volume-routing" src="assets/volumemac-routing.png" width="328" height="208" loading="lazy" alt="App Volume rows with different outputs selected" data-i18n="38" data-alt-pt="Exemplo de apps com saídas de áudio diferentes selecionadas">
+<figure class="volume-preview">
+<div class="volume-window" lang="en" dir="ltr">
+<strong class="volume-window-title">Sound</strong>
+<div class="volume-device"><strong>Output</strong><select aria-label="Output device"><option>Mac Speakers</option><option>Headphones</option><option>USB Audio</option></select></div>
+<label class="volume-level">
+<input type="range" aria-label="Output volume" min="0" max="100" value="73" style="--level:73%">
+<output aria-hidden="true">73%</output>
+</label>
+<div class="volume-device"><strong>Input</strong><select aria-label="Input device"><option>Built-in Microphone</option><option>USB Microphone</option><option>Headset Microphone</option></select></div>
+<label class="volume-level">
+<input type="range" aria-label="Microphone gain" min="0" max="100" value="25" style="--level:25%">
+<output aria-hidden="true">25%</output>
+</label>
+<details class="volume-apps">
+<summary>App Volume</summary>
+<div class="volume-app-list">
+<div class="volume-app">
+<div class="volume-device"><strong>Browser</strong><select aria-label="Browser output"><option>Headphones</option><option>App Default</option><option>Mac Speakers</option><option>USB Audio</option></select></div>
+<label class="volume-level">
+<input type="range" aria-label="Browser volume" min="0" max="100" value="65" style="--level:65%">
+<output aria-hidden="true">65%</output>
+</label>
 </div>
-<figcaption class="volume-details" hidden>
-<div class="segmented" role="group" aria-label="VolumeMac">
-<button type="button" aria-controls="volume-routing" aria-pressed="true" data-i18n="37" data-pt="Saída por app">Per-app output</button>
-<button type="button" aria-controls="volume-mixer" aria-pressed="false" data-i18n="39" data-pt="Mixer">Mixer</button>
-<button type="button" aria-controls="volume-shortcut" aria-pressed="false" data-i18n="36" data-pt="Atalho flutuante">Floating shortcut</button>
+<div class="volume-app">
+<div class="volume-device"><strong>Music Player</strong><select aria-label="Music Player output"><option>Mac Speakers</option><option>App Default</option><option>Headphones</option><option>USB Audio</option></select></div>
+<label class="volume-level">
+<input type="range" aria-label="Music Player volume" min="0" max="100" value="40" style="--level:40%">
+<output aria-hidden="true">40%</output>
+</label>
 </div>
-</figcaption>
+</div>
+</details>
+</div>
+<figcaption data-i18n="40" data-pt="Demonstração interativa com dispositivos de exemplo">Interactive demo with sample devices</figcaption>
 </figure>
 <div class="content"><p class="eyebrow">Swift · SwiftUI · AppKit · Core Audio</p><h3 id="volume-title">VolumeMac</h3>
 <p data-i18n="31" data-pt="Criei um mixer compacto para trocar a saída de áudio e regular o ganho do microfone na barra de menus do macOS. Um atalho flutuante opcional abre os controles ao lado do ícone.">I built a compact mixer to switch audio outputs and adjust microphone gain from the macOS menu bar. An optional floating shortcut opens the controls beside its icon.</p>
@@ -144,10 +165,9 @@
 </article>
 <div class="grid projects-grid">
 <article class="card blue donkey-case"><p class="eyebrow" data-i18n="12" data-pt="DREAMAR · Jogo Android">DREAMAR · Android game</p><h3>Donkey Barrel</h3><p data-i18n="13" data-pt="Como aumentar o desafio sem complicar os controles? Mantive a ação principal em um toque e usei o timing, os obstáculos e novas mecânicas para variar a dificuldade.">How do you increase the challenge without complicating the controls? I kept the main action to one tap and used timing, obstacles, and new mechanics to vary the difficulty.</p>
-<div class="donkey-art" dir="ltr">
-<img class="donkey-cover" src="assets/games/donkey-barrel-art.webp" width="256" height="256" loading="lazy" alt="">
-<img class="donkey-gameplay" src="assets/games/donkey-barrel-gameplay.webp" width="250" height="445" loading="lazy" alt="">
-</div>
+<figure class="donkey-art">
+<img src="assets/games/donkey-barrel-anime.webp" width="540" height="960" loading="lazy" alt="">
+</figure>
 <a href="https://play.google.com/store/apps/details?id=com.dreamar.donkeybarrel" target="_blank" rel="noopener noreferrer">Google Play</a></article>
 <article class="card plum movies-case">
 <p class="eyebrow">Python · FastAPI · Pydantic</p>
@@ -169,10 +189,10 @@
 <section class="lower" aria-labelledby="steam-title">
 <div><p class="eyebrow">Steam</p><h2 id="steam-title" data-i18n="16" data-pt="Jogos autorais">Solo game development</h2><p class="muted" data-i18n="17" data-pt="Uma seleção dos jogos que prototipei e desenvolvi sozinho, da primeira versão jogável ao lançamento.">A selection of games I prototyped and developed on my own, from the first playable build to release.</p></div>
 <ul class="credits">
-<li class="adult-credit"><a href="leave.html?to=simulove" data-destination="simulove"><strong class="game-credit-title"><img src="assets/games/simulove-icon.webp" width="36" height="36" loading="lazy" alt="">SimuLOVE! Vol. 1</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
-<li><a href="https://store.steampowered.com/app/3855000/ReCall/" target="_blank" rel="noopener noreferrer"><strong class="game-credit-title"><img src="assets/games/recall-icon.webp" width="36" height="36" loading="lazy" alt="">Re:Call</strong><span>Steam</span></a></li>
-<li class="adult-credit"><a href="leave.html?to=rent-a-girl" data-destination="rent-a-girl"><strong class="game-credit-title"><img src="assets/games/rent-a-girl-icon.webp" width="36" height="36" loading="lazy" alt="">Rent a Girl</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
-<li class="adult-credit"><a href="leave.html?to=divine-awakening" data-destination="divine-awakening"><strong class="game-credit-title"><img src="assets/games/divine-awakening-icon.webp" width="36" height="36" loading="lazy" alt="">Divine Awakening</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
+<li class="adult-credit"><a href="leave.html?to=simulove" data-destination="simulove"><strong class="game-credit-title"><img src="assets/games/simulove-icon.webp" width="56" height="56" loading="lazy" alt="">SimuLOVE! Vol. 1</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
+<li><a href="https://store.steampowered.com/app/3855000/ReCall/" target="_blank" rel="noopener noreferrer"><strong class="game-credit-title"><img src="assets/games/recall-icon.webp" width="56" height="56" loading="lazy" alt="">Re:Call</strong><span>Steam</span></a></li>
+<li class="adult-credit"><a href="leave.html?to=rent-a-girl" data-destination="rent-a-girl"><strong class="game-credit-title"><img src="assets/games/rent-a-girl-icon.webp" width="56" height="56" loading="lazy" alt="">Rent a Girl</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
+<li class="adult-credit"><a href="leave.html?to=divine-awakening" data-destination="divine-awakening"><strong class="game-credit-title"><img src="assets/games/divine-awakening-icon.webp" width="56" height="56" loading="lazy" alt="">Divine Awakening</strong><span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
 </ul>
 </section>
 

@@ -15,7 +15,13 @@ window.portfolioTranslations = {
     "VolumeMac-Mixer in der macOS-Menüleiste",
     "Schwebender VolumeMac-Kurzbefehl mit geöffneten Reglern",
     "Ich habe einen kompakten Mixer entwickelt, um die Audioausgabe zu wechseln und die Mikrofonverstärkung in der macOS-Menüleiste einzustellen. Ein optionaler schwebender Kurzbefehl öffnet die Regler direkt neben seinem Symbol.",
-    "Im Prototyp lassen sich Lautstärke und Ausgabe pro App einstellen, ohne die Standardausgabe des Macs zu ändern. Diese Einstellungen sind experimentell."
+    "Im Prototyp lassen sich Lautstärke und Ausgabe pro App einstellen, ohne die Standardausgabe des Macs zu ändern. Diese Einstellungen sind experimentell.",
+    "macOS-Apps",
+    "Spiele",
+    "Backend",
+    "Schwebenden Kurzbefehl vergrößern",
+    "Beispiel mit unterschiedlicher Ausgabe pro App",
+    "Browser und Musikplayer mit unterschiedlichen Audioausgaben"
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -33,7 +39,13 @@ window.portfolioTranslations = {
     "macOS のメニューバーにある VolumeMac ミキサー",
     "操作パネルを開いた VolumeMac のフローティングショートカット",
     "macOS のメニューバーから音声の出力先を切り替え、マイクのゲインを調整できる小型ミキサーを作りました。フローティングショートカットを有効にすると、アイコンの隣に操作パネルが開きます。",
-    "試作版では、Mac のデフォルト出力を変更せずに、アプリごとに音量と出力先を設定できます。アプリごとの操作は実験的な機能です。"
+    "試作版では、Mac のデフォルト出力を変更せずに、アプリごとに音量と出力先を設定できます。アプリごとの操作は実験的な機能です。",
+    "macOS アプリ",
+    "ゲーム",
+    "バックエンド",
+    "フローティングショートカットを拡大",
+    "アプリごとに出力先を分けた例",
+    "ブラウザーと音楽プレーヤーで異なる出力先を選択した画面"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -51,7 +63,13 @@ window.portfolioTranslations = {
     "Микшер VolumeMac в строке меню macOS",
     "Плавающий значок VolumeMac с открытой панелью управления",
     "Я создал компактный микшер, чтобы переключать устройства вывода и регулировать усиление микрофона прямо из строки меню macOS. При желании можно включить плавающий значок, рядом с которым открываются элементы управления.",
-    "В прототипе также можно настроить громкость и выбрать устройство вывода для каждого приложения, не меняя выход Mac по умолчанию. Эти функции пока экспериментальные."
+    "В прототипе также можно настроить громкость и выбрать устройство вывода для каждого приложения, не меняя выход Mac по умолчанию. Эти функции пока экспериментальные.",
+    "Приложения macOS",
+    "Игры",
+    "Бэкенд",
+    "Увеличить плавающий значок",
+    "Пример с разными устройствами вывода для приложений",
+    "Браузер и музыкальный плеер с разными устройствами вывода"
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -70,7 +88,13 @@ window.portfolioTranslations = {
     "Mezclador de VolumeMac en la barra de menús de macOS",
     "Atajo flotante de VolumeMac con los controles abiertos",
     "Creé un mezclador compacto para cambiar la salida de audio y ajustar la ganancia del micrófono desde la barra de menús de macOS. Un atajo flotante opcional abre los controles junto a su icono.",
-    "El prototipo también permite ajustar el volumen y elegir una salida para cada aplicación sin cambiar la configuración de salida predeterminada del Mac. Estos controles por aplicación son experimentales."
+    "El prototipo también permite ajustar el volumen y elegir una salida para cada aplicación sin cambiar la configuración de salida predeterminada del Mac. Estos controles por aplicación son experimentales.",
+    "Apps para macOS",
+    "Juegos",
+    "Backend",
+    "Ampliar el atajo flotante",
+    "Ejemplo con distintas salidas por aplicación",
+    "Navegador y reproductor de música con distintas salidas de audio"
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -89,7 +113,13 @@ window.portfolioTranslations = {
     "Mixeur VolumeMac dans la barre des menus de macOS",
     "Raccourci flottant de VolumeMac avec ses commandes ouvertes",
     "J’ai créé un mixeur compact pour changer la sortie audio et régler le gain du micro depuis la barre des menus de macOS. Un raccourci flottant facultatif ouvre les commandes à côté de son icône.",
-    "Le prototype permet aussi de régler le volume et de choisir une sortie pour chaque application sans modifier la sortie par défaut du Mac. Ces commandes par application sont expérimentales."
+    "Le prototype permet aussi de régler le volume et de choisir une sortie pour chaque application sans modifier la sortie par défaut du Mac. Ces commandes par application sont expérimentales.",
+    "Apps macOS",
+    "Jeux",
+    "Backend",
+    "Agrandir le raccourci flottant",
+    "Exemple avec des sorties différentes par application",
+    "Navigateur et lecteur de musique avec des sorties audio différentes"
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -107,7 +137,13 @@ window.portfolioTranslations = {
     "macOS 菜单栏中的 VolumeMac 混音器",
     "打开控制面板的 VolumeMac 浮动快捷图标",
     "我开发了一款小巧的混音器，可以直接在 macOS 菜单栏切换音频输出并调整麦克风增益。启用浮动快捷图标后，控制面板会在图标旁打开。",
-    "原型还可为每个应用单独调整音量并选择输出设备，而无需更改 Mac 的默认输出。按应用控制目前仍是实验功能。"
+    "原型还可为每个应用单独调整音量并选择输出设备，而无需更改 Mac 的默认输出。按应用控制目前仍是实验功能。",
+    "macOS 应用",
+    "游戏",
+    "后端",
+    "放大浮动快捷图标",
+    "为不同应用选择不同输出的示例",
+    "浏览器和音乐播放器分别选择了不同的音频输出"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -125,7 +161,13 @@ window.portfolioTranslations = {
     "macOS मेनू बार में VolumeMac मिक्सर",
     "खुले नियंत्रणों के साथ VolumeMac का फ़्लोटिंग शॉर्टकट",
     "मैंने macOS मेनू बार से ऑडियो आउटपुट बदलने और माइक्रोफ़ोन का गेन समायोजित करने के लिए एक छोटा मिक्सर बनाया। वैकल्पिक फ़्लोटिंग शॉर्टकट अपने आइकन के पास ही नियंत्रण खोलता है।",
-    "इस प्रोटोटाइप में Mac का डिफ़ॉल्ट आउटपुट बदले बिना हर ऐप का वॉल्यूम और आउटपुट चुना जा सकता है। हर ऐप के लिए ये नियंत्रण अभी प्रायोगिक हैं।"
+    "इस प्रोटोटाइप में Mac का डिफ़ॉल्ट आउटपुट बदले बिना हर ऐप का वॉल्यूम और आउटपुट चुना जा सकता है। हर ऐप के लिए ये नियंत्रण अभी प्रायोगिक हैं।",
+    "macOS ऐप",
+    "गेम",
+    "बैकएंड",
+    "फ़्लोटिंग शॉर्टकट बड़ा करें",
+    "अलग-अलग ऐप के लिए अलग आउटपुट का उदाहरण",
+    "ब्राउज़र और म्यूज़िक प्लेयर के लिए अलग ऑडियो आउटपुट चुने गए हैं"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -143,7 +185,13 @@ window.portfolioTranslations = {
     "مازج VolumeMac في شريط قوائم macOS",
     "اختصار VolumeMac العائم مع ظهور عناصر التحكم",
     "طوّرت مازجًا صغيرًا لتبديل مخرج الصوت وضبط كسب الميكروفون من شريط قوائم macOS. يفتح الاختصار العائم الاختياري عناصر التحكم بجانب أيقونته.",
-    "يتيح النموذج الأولي أيضًا ضبط مستوى الصوت واختيار مخرج لكل تطبيق دون تغيير المخرج الافتراضي لجهاز Mac. هذه الميزة لكل تطبيق تجريبية."
+    "يتيح النموذج الأولي أيضًا ضبط مستوى الصوت واختيار مخرج لكل تطبيق دون تغيير المخرج الافتراضي لجهاز Mac. هذه الميزة لكل تطبيق تجريبية.",
+    "تطبيقات macOS",
+    "الألعاب",
+    "تطوير الواجهة الخلفية",
+    "تكبير الاختصار العائم",
+    "مثال على اختيار مخرج مختلف لكل تطبيق",
+    "المتصفح ومشغل الموسيقى مع تحديد مخرج صوت مختلف لكل منهما"
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -161,7 +209,13 @@ window.portfolioTranslations = {
     "macOS মেনু বারে VolumeMac মিক্সার",
     "নিয়ন্ত্রণ খোলা অবস্থায় VolumeMac-এর ভাসমান শর্টকাট",
     "macOS মেনু বার থেকে অডিও আউটপুট বদলাতে ও মাইক্রোফোনের গেইন ঠিক করতে একটি ছোট মিক্সার তৈরি করেছি। চাইলে ভাসমান শর্টকাট চালু করা যায়, যা আইকনের পাশেই নিয়ন্ত্রণগুলো খুলে দেয়।",
-    "প্রোটোটাইপে Mac-এর ডিফল্ট আউটপুট না বদলিয়েই প্রতিটি অ্যাপের ভলিউম ও আউটপুট নির্ধারণ করা যায়। অ্যাপভিত্তিক এই নিয়ন্ত্রণগুলো পরীক্ষামূলক।"
+    "প্রোটোটাইপে Mac-এর ডিফল্ট আউটপুট না বদলিয়েই প্রতিটি অ্যাপের ভলিউম ও আউটপুট নির্ধারণ করা যায়। অ্যাপভিত্তিক এই নিয়ন্ত্রণগুলো পরীক্ষামূলক।",
+    "macOS অ্যাপ",
+    "গেম",
+    "ব্যাকএন্ড",
+    "ভাসমান শর্টকাট বড় করে দেখুন",
+    "অ্যাপভেদে আলাদা আউটপুটের উদাহরণ",
+    "ব্রাউজার ও মিউজিক প্লেয়ারে আলাদা অডিও আউটপুট নির্বাচিত"
   ]
 };
 

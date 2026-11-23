@@ -136,3 +136,14 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 @media(min-width:781px){.mac-apps{grid-auto-rows:1fr}}
 
 .ocean-widget{font-variant-numeric:tabular-nums}
+
+.studio-visual{display:grid;gap:12px;min-width:0}
+.studio-cover{display:block;width:100%;height:auto;border-radius:14px}
+.donkey-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.62fr);align-items:center;gap:clamp(10px,3vw,24px);margin-block:14px;padding:clamp(12px,3vw,24px);border-radius:14px;background:radial-gradient(ellipse at 18% 8%,#abceea,#35659b)}
+.donkey-art img{display:block;width:100%;height:auto;border-radius:10px;box-shadow:0 7px 18px #182e5366}
+.donkey-cover{max-width:210px;justify-self:center}
+.donkey-gameplay{max-width:130px;justify-self:center}
+.credits a{align-items:center}
+.game-credit-title{display:flex;align-items:center;gap:9px;min-width:0}
+.game-credit-title img{display:block;flex:none;border-radius:8px}
+@media(max-width:420px){.credits a{gap:6px}.credits .adult-credit{gap:5px}.game-credit-title img{width:30px;height:30px}}

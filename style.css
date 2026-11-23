@@ -29,15 +29,9 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .exit-card{width:min(100%,460px);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,5vw,30px);background:#fff;color:var(--ink);box-shadow:0 18px 70px #13172424}
 .exit-card h1{font-size:clamp(1.55rem,5vw,2.2rem);line-height:1.12;letter-spacing:-.04em;margin:0 0 .55rem}
 .exit-card [hidden]{display:none}
-#exit-message{color:var(--muted);margin-bottom:.9rem}
-.exit-destination{display:grid;gap:.1rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);padding:.65rem .85rem;font-size:.94rem}
-#exit-destination-label{color:var(--muted)}
-#exit-host{justify-self:start;overflow-wrap:anywhere;max-width:100%}
-#adult-content{border:1px solid #e5bf8f;border-radius:12px;background:#fff7eb;padding:.75rem .85rem;margin-block-start:.8rem}
-.adult-notice-heading{display:flex;align-items:center;gap:.5rem}
-.adult-notice-heading h3{font-size:1rem;line-height:1.4;letter-spacing:normal;margin:0}
-#adult-game{font-weight:700;margin:.35rem 0 .15rem}
-#adult-message{margin:0;color:#65431d;font-size:.94rem}
+.exit-card h1{margin-top:.7rem}
+#adult-game{font-weight:700;margin:0 0 .35rem}
+#adult-message{margin:0;color:var(--muted)}
 .exit-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:.6rem;margin-block-start:1.1rem}
 .exit-back{display:inline-block;padding:.6rem .9rem;border:1px solid #b9c3d5;border-radius:999px;background:#fff;text-decoration:none}
 

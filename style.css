@@ -2,7 +2,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 90% 0%,#e6ecfb,transparent 600px),var(--bg);color:var(--ink);font:1rem/1.62 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}a{color:inherit;text-underline-offset:.28em}a:hover{color:var(--accent)}:focus-visible{outline:2px solid var(--accent);outline-offset:5px}.wrap{width:min(1120px,calc(100% - 88px));margin-inline:auto}.top,.footer{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:24px}.top{border-bottom:1px solid var(--line)}.mark{font:bold 1.65rem -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;text-decoration:none}.mark span,h1 span{color:var(--accent)}nav,.links,.actions{display:flex;align-items:center;gap:1.35rem;flex-wrap:wrap}nav a{text-decoration:none}button{font:inherit;color:inherit;background:transparent;border:1px solid #b9c3d5;border-radius:999px;padding:.28rem .6rem;cursor:pointer}button:hover{border-color:var(--accent)}
 .hero{min-height:590px;display:grid;grid-template-columns:1fr minmax(210px,330px);gap:clamp(25px,9vw,130px);align-items:center;padding-block:68px 82px}.eyebrow{text-transform:uppercase;letter-spacing:.105em;font-size:.875rem;font-weight:700;color:var(--accent);margin:0 0 .65rem}.hero h1{font:700 clamp(4rem,10vw,8.3rem)/.83 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:-.07em;margin:.24em 0}.intro{font-size:1.17rem;max-width:510px;color:var(--muted)}.actions{margin-top:28px}.button{display:inline-block;background:var(--accent);color:white;padding:.65rem 1rem;text-decoration:none;font-weight:700;border-radius:999px}.button:hover{background:#064783;color:white}.portrait-wrap{width:min(100%,300px);justify-self:center}.portrait{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%;box-shadow:0 16px 45px #253b6726}
 h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:-.055em;line-height:1.06}h2{font-size:clamp(2rem,5vw,3.4rem);margin:0 0 24px}h3{font-size:clamp(1.9rem,4vw,3.25rem);margin:0 0 1rem}p{margin:0 0 1rem}.feature{display:grid;grid-template-columns:1.2fr 1fr;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden}.screens{display:flex;align-items:center;justify-content:center;gap:12px;min-height:320px;padding:28px;background:radial-gradient(ellipse at 75% 5%,#a3aef5,transparent 70%),linear-gradient(145deg,#556ccb,#392b6a)}.history{display:block;width:72%;height:auto;min-width:0;filter:drop-shadow(0 10px 17px #0006)}.widget-frame{width:24%;min-width:0;filter:drop-shadow(0 8px 12px #20205065)}.widget-frame img{display:block;width:100%;height:auto;clip-path:inset(1px round 17%)}.content,.card{padding:clamp(22px,3.6vw,42px)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.card{border-radius:22px;border:1px solid var(--line)}.blue{background:#eaf3fd}.plum{background:#efedf8}.card h3{font-size:clamp(1.8rem,3vw,2.65rem)}.card p:not(.eyebrow),.content p:not(.eyebrow),.muted,.battle p:not(.eyebrow){color:var(--muted)}.links a,.card>a,.battle>a{font-weight:700}
-.lower{display:grid;grid-template-columns:1fr 1.2fr;gap:2rem;padding:76px 0 50px}.credits{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}.credits a{display:flex;justify-content:space-between;gap:1rem;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:700}.credits span{color:var(--muted);font-weight:400}.battle{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;border-block:1px solid var(--line);padding:35px 0}.battle h2{font-size:clamp(1.85rem,4vw,2.5rem);margin-bottom:.65rem}.battle p:last-child{margin:0;max-width:65ch}.battle>a{white-space:nowrap}.footer{padding-block:56px}.footer h2{margin:0}.skip{position:absolute;left:1rem;top:-100px;background:var(--bg);z-index:4;padding:.5rem}.skip:focus{top:1rem}
+.lower{display:grid;grid-template-columns:1fr 1.2fr;gap:2rem;padding:76px 0 50px}.battle{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;border-block:1px solid var(--line);padding:35px 0}.battle h2{font-size:clamp(1.85rem,4vw,2.5rem);margin-bottom:.65rem}.battle p:last-child{margin:0;max-width:65ch}.battle>a{white-space:nowrap}.footer{padding-block:56px}.footer h2{margin:0}.skip{position:absolute;left:1rem;top:-100px;background:var(--bg);z-index:4;padding:.5rem}.skip:focus{top:1rem}
 @media(max-width:780px){.wrap{width:calc(100% - 36px)}.hero{gap:1.25rem;min-height:auto;grid-template-columns:1fr 145px;padding-block:48px}.feature{grid-template-columns:1fr}.screens{min-height:0}.lower{padding-top:55px}}
 @media(max-width:520px){.hero{grid-template-columns:1fr}.portrait-wrap{grid-row:1;width:112px;justify-self:start}.hero h1{font-size:clamp(3.9rem,16vw,5.6rem)}nav,.links,.actions{gap:.85rem}.grid,.lower{grid-template-columns:1fr}.battle,.footer{align-items:flex-start;flex-direction:column}.screens{padding:17px}.top{padding-block:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
@@ -20,8 +20,6 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 [dir=rtl] .eyebrow,[lang=hi] .eyebrow,[lang=bn] .eyebrow{letter-spacing:normal}
 @media(max-width:520px){.language-bar{gap:6px;padding-block:10px}.language-label{width:100%}.language-options a{min-height:44px;padding-inline:10px}}
 
-.credits .adult-credit{display:flex;align-items:center;gap:.65rem;border-bottom:1px solid var(--line)}
-.credits .adult-credit a{flex:1;min-width:0;border-bottom:0}
 .adult-badge{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#fff0de;color:#79440a;border:1px solid #d9a96e;border-radius:999px;padding:.15rem .48rem;font-size:.77rem;font-weight:750;line-height:1.3}
 .studio-action{display:flex;align-items:center;gap:.65rem;white-space:nowrap}
 .studio-action a{font-weight:700}
@@ -160,10 +158,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .donkey-case>a{align-self:flex-start}
 .donkey-art{width:min(100%,380px);margin:auto auto 0;padding-top:12px}
 .donkey-art img{display:block;width:100%;height:auto}
-.credits a{align-items:center}
-.game-credit-title{display:flex;align-items:center;gap:12px;min-width:0}
-.game-credit-title img{display:block;flex:none;width:56px;height:56px;border-radius:10px}
-@media(max-width:420px){.credits a{gap:6px}.credits .adult-credit{gap:5px}.game-credit-title{gap:8px}.game-credit-title img{width:48px;height:48px}}
+
 
 .studio-case.lilith-case{grid-template-columns:minmax(0,56%) minmax(0,1fr);align-content:center;gap:16px;min-height:480px;overflow:hidden;color:#fff7f5;border-color:#4c232a;background:#230c11 linear-gradient(90deg,#190b0ee8 0%,#190b0ed9 45%,#190b0e38 69%,transparent 100%);background-image:linear-gradient(90deg,#190b0ee8 0%,#190b0ed9 45%,#190b0e38 69%,transparent 100%),url("assets/games/lilith-rising-backdrop.webp");background-size:cover;background-position:center top}
 .lilith-case:dir(rtl){direction:ltr}
@@ -176,3 +171,15 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .lilith-case .branch-node{color:#ffece8;background:#522b34;border-color:#bd8b917a}
 .lilith-case :focus-visible{outline-color:#ffd7c8}
 @media(max-width:720px){.studio-case.lilith-case{grid-template-columns:minmax(0,1fr);min-height:0;padding-top:clamp(146px,44vw,280px);background-image:linear-gradient(180deg,#230c1100 0,#230c1112 120px,#230c11ed 240px,#230c11 335px),url("assets/games/lilith-rising-backdrop.webp");background-size:100% 100%,auto clamp(295px,68vw,430px);background-position:center top,right top;background-repeat:no-repeat}}
+
+.solo-game-list{display:grid;gap:8px;min-width:0;list-style:none;margin:0;padding:0}
+.solo-game-card{display:grid;grid-template-columns:minmax(0,31%) minmax(0,1fr) auto;align-items:center;gap:12px;min-height:60px;padding:6px 12px 6px 6px;border:1px solid var(--line);border-radius:12px;background:#fff;color:#19243a;text-decoration:none}
+.solo-game-card:hover{background:#edf5fd;border-color:#9db7d3}
+.solo-game-card:hover strong{text-decoration:underline;text-underline-offset:3px}
+.solo-game-card img{display:block;width:100%;height:auto;border-radius:7px}
+.solo-game-copy{display:grid;gap:2px;min-width:0;line-height:1.25}
+.solo-game-copy strong{font-size:.92rem;overflow-wrap:anywhere}
+.solo-game-platform{color:var(--muted);font-size:.76rem}
+.solo-game-card .adult-badge{white-space:nowrap}
+.solo-game-card:dir(rtl){padding:6px 6px 6px 12px}
+@media(max-width:420px){.solo-game-card{grid-template-columns:minmax(0,32%) minmax(0,1fr) auto;gap:7px;padding:5px 7px 5px 5px}.solo-game-copy strong{font-size:.84rem}}

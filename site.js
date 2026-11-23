@@ -43,6 +43,7 @@ function applyLanguage(language) {
     if (link.dataset.lang === language) link.setAttribute('aria-current', 'true');
     else link.removeAttribute('aria-current');
   }
+  document.dispatchEvent(new CustomEvent('portfolio:language', { detail: language }));
 }
 
 function applyURL() {

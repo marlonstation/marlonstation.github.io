@@ -11,9 +11,10 @@
 <meta property="og:description" content="Selected work in full-stack development, native macOS apps, and games.">
 <meta property="og:image" content="https://marlonstation.github.io/assets/metrics-history.png">
 <title data-i18n="26" data-pt="Desenvolvedor de software">Marlon Ribeiro — Software Developer</title>
-<link rel="stylesheet" href="style.css">
-<script src="translations.js?v=monitormac-build" defer></script>
-<script src="site.js?v=eleven-languages" defer></script>
+<link rel="stylesheet" href="style.css?v=project-cases">
+<script src="translations.js?v=project-cases" defer></script>
+<script src="site.js?v=project-cases" defer></script>
+<script src="showcase.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="0" data-pt="Pular para o conteúdo">Skip to content</a>
@@ -49,8 +50,8 @@
 <section class="hero" aria-labelledby="name">
 <div>
 <p class="eyebrow" data-i18n="3" data-pt="Desenvolvedor de software · Brasil">Software Developer · Brazil</p>
-<h1 id="name" dir="ltr">Marlon<br>Ribeiro<span>.</span></h1>
-<p class="intro" data-i18n="4" data-pt="Desenvolvo aplicações full stack, apps nativos para macOS e jogos. Na DREAMAR, levo ideias do primeiro protótipo funcional ao lançamento.">I build full-stack applications, native macOS software, and games. At DREAMAR, I take ideas from the first working prototype to release.</p>
+<h1 id="name" dir="ltr">Marlon Ribeiro<span>.</span></h1>
+<p class="intro" data-i18n="4" data-pt="Crio apps nativos para macOS e jogos, do protótipo ao lançamento. Na Jubei Studio, liderei uma equipe de programação.">I build native macOS apps and games from prototype to release. At Jubei Studio, I led a programming team.</p>
 <div class="actions"><a class="button" href="#work" data-i18n="5" data-pt="Ver trabalhos">View selected work</a><a href="https://www.linkedin.com/in/marlonrt/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
 </div>
 <div class="portrait-wrap"><img class="portrait" src="assets/marlon.jpg" width="400" height="400" alt="Marlon Ribeiro"></div>
@@ -58,33 +59,78 @@
 <section id="work" aria-labelledby="work-title">
 <h2 id="work-title" data-i18n="6" data-pt="Trabalhos selecionados">Selected work</h2>
 <article class="feature">
-<div class="screens">
-<div class="history-preview">
+<figure class="monitor-demo">
+<div class="screens demo-stage">
+<div id="demo-history" class="history-preview">
 <img class="history" src="assets/metrics-history.png" alt="MonitorMac temperature and memory history" data-i18n="7" data-alt-pt="Histórico de temperaturas e memória do MonitorMac">
 <span class="history-ram" dir="ltr">19.2 / 24 GiB</span>
 </div>
-<div class="widget-frame" role="img" aria-label="MonitorMac floating panel" data-i18n="8" data-alt-pt="Painel flutuante do MonitorMac">
+<div id="demo-overlay" class="widget-frame" role="img" aria-label="MonitorMac floating panel" data-i18n="8" data-alt-pt="Painel flutuante do MonitorMac">
 <div class="ocean-widget" aria-hidden="true" dir="ltr">
   <div class="widget-heading"><span class="widget-grip">✥</span><span>MonitorMac</span><span class="widget-palette"></span></div>
   <div class="widget-temperatures">
-    <div><span>CPU</span><strong>62°</strong></div><div><span>GPU</span><strong>54°</strong></div>
+    <div><span>CPU</span><strong id="demo-cpu">62°</strong></div><div><span>GPU</span><strong id="demo-gpu">54°</strong></div>
   </div>
-  <div class="widget-ram"><span>RAM</span><strong>80%</strong></div>
-  <div class="widget-memory">19.2 / 24 GiB</div>
+  <div class="widget-ram"><span>RAM</span><strong id="demo-ram">80%</strong></div>
+  <div class="widget-memory" id="demo-memory">19.2 / 24 GiB</div>
   <div class="widget-track"></div>
   <div class="widget-status">Nominal</div>
   <div class="widget-model">Mac mini M6</div>
 </div>
 </div>
 </div>
+<figcaption class="demo-actions">
+  <div class="segmented" role="group" aria-labelledby="demo-label">
+    <button type="button" data-monitor-view="overlay" data-showcase="overlay" aria-controls="demo-overlay" aria-pressed="true">Floating panel</button>
+    <button type="button" data-monitor-view="history" data-showcase="history" aria-controls="demo-history" aria-pressed="false">History</button>
+  </div>
+  <div class="demo-caption">
+    <span id="demo-label" data-showcase="sample">Interactive demo · Sample readings</span>
+    <button type="button" id="demo-load" data-showcase="load" aria-pressed="false">Simulate load</button>
+  </div>
+  <span id="demo-readings" class="visually-hidden" role="status"></span>
+</figcaption>
+</figure>
 <div class="content"><p class="eyebrow">Swift · SwiftUI · AppKit</p><h3>MonitorMac</h3>
 <p data-i18n="9" data-pt="Queria consultar temperatura e memória sem interromper o que estava fazendo. Desenvolvi um app nativo que mantém as leituras na barra de menus e abre um painel flutuante por atalho global.">I wanted to check temperature and memory without interrupting what I was doing. I built a native app with live readings in the menu bar and a floating panel accessible by a global shortcut.</p>
-<p data-i18n="10" data-pt="A versão padrão mostra o estado térmico do sistema, o uso de RAM e dez minutos de histórico. As imagens mostram a versão experimental, que também exibe a temperatura da CPU e da GPU.">The standard build shows system thermal state, RAM usage, and ten minutes of history. The images show the experimental build, which also displays CPU and GPU temperatures.</p>
-<div class="links"><a href="https://github.com/marlonstation/MonitorMac" target="_blank" rel="noopener noreferrer" data-i18n="11" data-pt="Código e instalação">Source and setup</a></div></div>
+<p data-i18n="10" data-pt="A versão padrão mostra o estado térmico do sistema, o uso de RAM e dez minutos de histórico. A demonstração mostra a versão experimental, que também exibe a temperatura da CPU e da GPU.">The standard build shows system thermal state, RAM usage, and ten minutes of history. The demo shows the experimental build, which also displays CPU and GPU temperatures.</p>
+<div class="links"><a href="https://github.com/marlonstation/MonitorMac" target="_blank" rel="noopener noreferrer" data-i18n="11" data-pt="Ver código e como compilar">Source and build instructions</a></div></div>
 </article>
-<div class="grid">
+<article class="studio-case" aria-labelledby="studio-title">
+<div class="studio-summary">
+<p class="eyebrow" data-i18n="27" data-pt="Lead Programmer · Jubei Studio">Lead Programmer · Jubei Studio</p>
+<h2 id="studio-title">Lilith Rising – Season 2</h2>
+<p data-i18n="18" data-pt="Como Lead Programmer neste jogo da Jubei Studio, liderei um time de programação dentro de uma equipe de produção de cerca de 15 pessoas. Participava das reuniões diárias para alinhar prioridades, acompanhar o progresso e tratar bloqueios. Também implementei sistemas de gameplay e narrativa ramificada com Python e Ren’Py e colaborei com design e arte na integração de conteúdo.">As Lead Programmer on this Jubei Studio title, I led a programming team within a production crew of about 15 people. I took part in daily stand-ups to align priorities, track progress, and address blockers. I also implemented gameplay and branching narrative systems in Python and Ren’Py and worked with design and art to integrate content.</p>
+<div class="studio-action"><span class="adult-badge" dir="ltr">18+</span><a href="leave.html?to=lilith-rising" data-destination="lilith-rising" data-i18n="19" data-pt="Ver na Steam">View on Steam</a></div>
+</div>
+
+<figure class="branch-demo">
+<figcaption data-showcase="branch">Branching narrative example</figcaption>
+<div class="branch-node branch-root" data-showcase="choice">Player choice</div>
+<div class="branch-paths">
+  <div class="branch-node" data-showcase="pathA">Path A</div>
+  <div class="branch-node" data-showcase="pathB">Path B</div>
+</div>
+<div class="branch-node branch-end" data-showcase="scene">Next scene</div>
+</figure>
+</article>
+<div class="grid projects-grid">
 <article class="card blue"><p class="eyebrow" data-i18n="12" data-pt="DREAMAR · Jogo Android">DREAMAR · Android game</p><h3>Donkey Barrel</h3><p data-i18n="13" data-pt="Como aumentar o desafio sem complicar os controles? Mantive a ação principal em um toque e usei o timing, os obstáculos e novas mecânicas para variar a dificuldade.">How do you increase the challenge without complicating the controls? I kept the main action to one tap and used timing, obstacles, and new mechanics to vary the difficulty.</p><a href="https://play.google.com/store/apps/details?id=com.dreamar.donkeybarrel" target="_blank" rel="noopener noreferrer">Google Play</a></article>
-<article class="card plum"><p class="eyebrow">React · TypeScript · Python</p><h3 data-i18n="14" data-pt="Desenvolvimento full stack">Full-stack development</h3><p data-i18n="15" data-pt="Desenvolvo interfaces, integro APIs e testo o fluxo da ação do usuário até a resposta do back-end. Meu GitHub anterior reúne exemplos de front-end e back-end.">I build interfaces, integrate APIs, and test the path from user action to back-end response. My previous GitHub account includes separate front-end and back-end examples.</p><div class="links"><a href="https://github.com/marlonrt/carmarlon" target="_blank" rel="noopener noreferrer">carmarlon</a><a href="https://github.com/marlonrt/fastpicrud" target="_blank" rel="noopener noreferrer">fastpicrud</a></div></article>
+<article class="card plum movies-case">
+<p class="eyebrow">Python · FastAPI · Pydantic</p>
+<h3 data-showcase="movies">Movie API</h3>
+<p data-showcase="moviesDescription">I built a FastAPI service with a typed movie model and endpoints to list, add, update, and remove entries. Try the genre filter with sample data from the project.</p>
+<div class="movies-demo">
+  <div class="segmented" role="group" aria-label="Genre" data-showcase-label="genre">
+    <button type="button" data-movie-genre="action" aria-controls="movies-result" data-showcase="action" aria-pressed="true">Action</button>
+    <button type="button" data-movie-genre="sci-fi" aria-controls="movies-result" data-showcase="scifi" aria-pressed="false">Sci-fi</button>
+    <button type="button" data-movie-genre="drama" aria-controls="movies-result" data-showcase="drama" aria-pressed="false">Drama</button>
+  </div>
+  <code id="movies-request" dir="ltr">GET /movies/?Genre=action</code>
+  <ul id="movies-result" aria-live="polite" dir="ltr"><li>The Dark Knight</li><li>Inception</li><li>The Matrix</li></ul>
+</div>
+<a href="https://github.com/marlonrt/fastpicrud/blob/main/movies.py" target="_blank" rel="noopener noreferrer" data-showcase="apiSource">View API code</a>
+</article>
 </div>
 </section>
 <section class="lower" aria-labelledby="steam-title">
@@ -96,14 +142,7 @@
 <li class="adult-credit"><a href="leave.html?to=divine-awakening" data-destination="divine-awakening">Divine Awakening <span>Steam</span></a><span class="adult-badge" dir="ltr">18+</span></li>
 </ul>
 </section>
-<section class="battle studio" aria-labelledby="studio-title">
-<div>
-<p class="eyebrow" data-i18n="27" data-pt="Lead Programmer · Jubei Studio">Lead Programmer · Jubei Studio</p>
-<h2 id="studio-title">Lilith Rising – Season 2</h2>
-<p data-i18n="18" data-pt="Como Lead Programmer neste jogo da Jubei Studio, liderei um time de programação dentro de uma equipe de produção de cerca de 15 pessoas. Participava das reuniões diárias para alinhar prioridades, acompanhar o progresso e tratar bloqueios. Também implementei sistemas de gameplay e narrativa ramificada com Python e Ren’Py e colaborei com design e arte na integração de conteúdo.">As Lead Programmer on this Jubei Studio title, I led a programming team within a production crew of about 15 people. I took part in daily stand-ups to align priorities, track progress, and address blockers. I also implemented gameplay and branching narrative systems in Python and Ren’Py and worked with design and art to integrate content.</p>
-</div>
-<div class="studio-action"><span class="adult-badge" dir="ltr">18+</span><a href="leave.html?to=lilith-rising" data-destination="lilith-rising" data-i18n="19" data-pt="Ver na Steam">View on Steam</a></div>
-</section>
+
 <section class="battle" aria-labelledby="battle-title"><div><p class="eyebrow" data-i18n="20" data-pt="Competição de programação">Programming competition</p><h2 id="battle-title">Cambridge Battlecode 2026</h2><p data-i18n="21" data-pt="Participei da edição de 2026, uma competição de programação em que bots autônomos disputam partidas de estratégia por turnos.">I took part in the 2026 edition, a programming competition where autonomous bots compete in a turn-based strategy game.</p></div><a href="https://2026a.battlecode.co.uk/" target="_blank" rel="noopener noreferrer" data-i18n="22" data-pt="Ver competição">View competition</a></section>
 </main>
 <footer id="contact" class="wrap footer">

@@ -23,7 +23,6 @@
 [data-theme=neon] .eyebrow{color:var(--mint)}
 [data-theme=neon] a:hover{color:var(--mint)}
 [data-theme=neon] :focus-visible{outline:2px solid var(--mint);outline-offset:3px}
-[data-theme=neon] .portrait{border:2px solid #ffbb9e;border-radius:18px;box-shadow:7px 7px 0 #632752,0 0 29px #fe8db84d}
 [data-theme=neon] :is(.button,.theme-toggle){border:1px solid #ffb599;border-radius:8px;background:linear-gradient(125deg,#ffd497,#fb90ca);color:#33122e;box-shadow:3px 3px 0 #74315d;font-weight:800}
 [data-theme=neon] :is(.button,.theme-toggle):hover{background:linear-gradient(125deg,#ffe5b0,#ffc2df);color:#33122e}
 [data-theme=neon] .theme-sun{background:linear-gradient(#fc854f,#942560);box-shadow:0 0 0 2px #ffd3e3}
@@ -55,7 +54,6 @@
 [data-theme=neon] .adult-badge{background:#4f2842;color:#ffe0a3;border-color:#c7838f}
 [data-theme=neon] :is(.battle,.footer,.language-bar){border-color:#a75f986f}
 [data-theme=neon] :is(#work-title,#steam-title,#battle-title,#contact h2){letter-spacing:.012em;font-weight:400}
-@media(min-width:781px){[data-theme=neon] .portrait-wrap{width:min(100%,245px)}}
 
 [data-theme=neon] .monitor-demo{background:radial-gradient(ellipse at 76% 8%,#c9548b91,transparent 60%),linear-gradient(155deg,#502859,#253252 59%,#174650)}
 [data-theme=neon] .ocean-widget{color:#fff0f5;border-color:#f18cbf;background:linear-gradient(155deg,#4e2549,#261735 58%,#183447);box-shadow:3px 5px 0 #251128,0 6px 20px #e95ba344}
@@ -65,7 +63,7 @@
 [data-theme=neon] .widget-palette{background:linear-gradient(125deg,#ffbf78,#fa8ac7,#8ce7d8)}
 [data-theme=neon] .monitor-demo .widget-track{background:#533b60}
 [data-theme=neon] .monitor-demo .widget-track::before{background:linear-gradient(90deg,#ef82ba,#ffbb89)}
-[data-theme=neon] .history-preview{filter:sepia(.19) saturate(1.35) hue-rotate(290deg) drop-shadow(0 8px 14px #210c36bd);outline:1px solid #f197b894;outline-offset:2px;border-radius:8px}
+[data-theme=neon] .history-preview{--history-plot:#35213f;--history-grid:#694669;filter:drop-shadow(0 8px 14px #210c36bd);outline:1px solid #f197b894;outline-offset:2px;border-radius:8px}
 [data-theme=neon] .volume-preview{background:radial-gradient(ellipse at 11% 30%,#bf5e766a,transparent 58%),linear-gradient(150deg,#592646,#322445 62%,#1b4d52)}
 [data-theme=neon] .volume-window{background:linear-gradient(145deg,#44263e,#25192e 62%);border-color:#f1a0c5}
 [data-theme=neon] .volume-window-title{color:#ffd59b;font-family:var(--display);font-size:1.18rem;letter-spacing:.06em}
@@ -85,3 +83,17 @@
 .theme-music::before{content:"";width:0;height:0;border-block:6px solid transparent;border-inline-start:10px solid currentColor}
 .theme-music[data-playing=true]::before{width:11px;height:13px;border-block:0;border-inline:3px solid currentColor}
 @media(max-width:520px){.theme-music:not([hidden]){flex-basis:38px;width:38px}}
+
+[data-theme=neon] .hero{display:grid;grid-template-columns:minmax(0,58%) 1fr;gap:0;min-height:clamp(400px,45vw,535px);margin-block:clamp(16px,3vw,32px);padding:clamp(24px,5vw,64px);border:1px solid #df85b8;border-radius:24px;background:#24192f linear-gradient(90deg,#22162de6,#22162d7a 51%,transparent 78%);background-image:linear-gradient(90deg,#22162ddd,#22162d65 51%,transparent 78%),url("assets/marlon-neon-hero.webp");background-size:cover;background-position:center top;box-shadow:5px 5px 0 #632752,0 15px 36px #190d2680}
+[data-theme=neon] .hero>div:first-child{grid-column:1;grid-row:1;min-width:0}
+[data-theme=neon] .hero:dir(rtl){direction:ltr}
+[data-theme=neon] .hero:dir(rtl)>div:first-child{direction:rtl}
+[data-theme=neon] .hero .portrait-wrap{display:none}
+[data-theme=neon] .hero h1{font-size:clamp(2.7rem,6.4vw,6.9rem);line-height:.98}
+[data-theme=neon] .history-ram{display:none}
+@media(max-width:680px){
+  [data-theme=neon] .hero{grid-template-columns:1fr;align-items:end;min-height:475px;padding:20px;background-image:linear-gradient(to bottom,#24152b00 22%,#21152b80 49%,#21152bf0 67%,#21152b 100%),url("assets/marlon-neon-hero.webp");background-position:center,82% top}
+  [data-theme=neon] .hero h1{font-size:clamp(2.7rem,10vw,4.6rem)}
+}
+[data-theme=neon] .monitor-demo .history-preview{width:min(100%,370px)}
+[data-theme=neon] .donkey-art{width:min(100%,310px)}

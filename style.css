@@ -36,7 +36,7 @@ h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-
 .screens{display:grid;grid-template-columns:minmax(0,2.45fr) minmax(0,1fr);gap:14px;background:radial-gradient(ellipse at 83% 0%,#afc8ee,transparent 70%),linear-gradient(150deg,#5476ae,#233861)}
 .history-preview{position:relative;container-type:inline-size;min-width:0;filter:drop-shadow(0 9px 15px #14264450)}
 .history-preview .history{width:100%;filter:none}
-.history-trace-cover{position:absolute;pointer-events:none;right:4.95%;height:21.1765%;clip-path:inset(0 0 0 100%);background:linear-gradient(to bottom,#25262b 0 24.44%,#3d3e42 24.44% 25.56%,#25262b 25.56% 49.44%,#3d3e42 49.44% 50.56%,#25262b 50.56% 74.44%,#3d3e42 74.44% 75.56%,#25262b 75.56% 100%)}
+.history-trace-cover{position:absolute;pointer-events:none;right:4.95%;height:21.1765%;clip-path:inset(0 0 0 100%);background:linear-gradient(to bottom,var(--history-plot,#25262b) 0 24.44%,var(--history-grid,#3d3e42) 24.44% 25.56%,var(--history-plot,#25262b) 25.56% 49.44%,var(--history-grid,#3d3e42) 49.44% 50.56%,var(--history-plot,#25262b) 50.56% 74.44%,var(--history-grid,#3d3e42) 74.44% 75.56%,var(--history-plot,#25262b) 75.56% 100%)}
 .history-trace-temperature{left:12.12%;top:26.5882%}
 .history-trace-memory{left:12.92%;top:57.6471%}
 .history-ram{position:absolute;top:13.15%;left:4.5%;min-width:20.5%;height:4.2%;padding-inline-start:.3cqw;background:#1b1c21;color:#dcdde1;font:700 2.67cqw/1.18 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;white-space:nowrap}

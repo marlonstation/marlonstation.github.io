@@ -15,6 +15,12 @@
   background:radial-gradient(ellipse at 83% 0%,#ef9f9960,transparent 48rem),radial-gradient(ellipse at 0% 8%,#464c9f88,transparent 55rem),linear-gradient(180deg,#574263 0%,#302c4d 23%,#223148 56%,#192637 100%);
   color:var(--ink);
 }
+@media (hover:hover) and (pointer:fine){
+  [data-theme=neon] body{cursor:url("assets/cursor-gta.png") 2 2,auto}
+  [data-theme=neon] :is(a[href],button:not(:disabled),summary){
+    cursor:url("assets/cursor-gta-action.png") 2 2,pointer;
+  }
+}
 [data-theme=neon] :is(h1,h2,h3,.mark){font-family:var(--display);letter-spacing:.015em}
 [data-theme=neon] :is(h2,h3){color:#ffe1d2}
 [data-theme=neon] h2{text-shadow:0 0 .22em #efa69b47,0 0 .58em #ef9f9933}

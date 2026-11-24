@@ -23,7 +23,11 @@ window.portfolioTranslations = {
     "Ausgabe pro App",
     "Browser und Musikplayer mit unterschiedlichen Audioausgaben",
     "Mixer",
-    "Interaktive Demo mit Beispielgeräten"
+    "Interaktive Demo mit Beispielgeräten",
+    "Entwickle eine Dating-App, während dein eigenes Liebesleben unerwartete Wendungen nimmt.",
+    "An einer japanischen Schule führen vergessene Versprechen Kaito zu seinen verlorenen Erinnerungen.",
+    "Ein schüchterner Schüler bucht ein Date. Seine Entscheidungen bestimmen, was sich echt anfühlt.",
+    "In einer düsteren Fantasywelt wecken unerwartete Bindungen göttliche Kräfte und eröffnen einen Weg zur Erlösung."
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -49,7 +53,11 @@ window.portfolioTranslations = {
     "アプリ別の出力",
     "ブラウザーと音楽プレーヤーで異なる出力先を選択した画面",
     "ミキサー",
-    "サンプル機器を使った操作デモ"
+    "サンプル機器を使った操作デモ",
+    "恋愛アプリを開発する中で、自分自身の恋愛も思わぬ方向に進んでいく。",
+    "日本の高校を舞台に、忘れられた約束がカイトを失われた記憶へと導く。",
+    "内気な学生がデートを依頼する。何が本物になっていくかは、彼の選択次第。",
+    "暗いファンタジーの世界で、思いがけない絆が神の力を呼び覚まし、贖いへの道を開く。"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -75,7 +83,11 @@ window.portfolioTranslations = {
     "Выход для приложения",
     "Браузер и музыкальный плеер с разными устройствами вывода",
     "Микшер",
-    "Интерактивная демонстрация с примерами устройств"
+    "Интерактивная демонстрация с примерами устройств",
+    "Создавайте приложение для знакомств, пока ваша собственная личная жизнь принимает неожиданный оборот.",
+    "В японской школе забытые обещания ведут Кайто к утраченным воспоминаниям.",
+    "Застенчивый студент заказывает свидание. От его выбора зависит, что станет настоящим.",
+    "В мрачном фэнтезийном мире неожиданные связи пробуждают божественную силу и открывают путь к искуплению."
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -102,7 +114,11 @@ window.portfolioTranslations = {
     "Salida por aplicación",
     "Navegador y reproductor de música con distintas salidas de audio",
     "Mezclador",
-    "Demostración interactiva con dispositivos de ejemplo"
+    "Demostración interactiva con dispositivos de ejemplo",
+    "Crea una app de citas mientras tu propia vida amorosa toma rumbos inesperados.",
+    "En un instituto japonés, unas promesas olvidadas guían a Kaito hacia sus recuerdos perdidos.",
+    "Un estudiante tímido contrata una cita. Sus decisiones marcan lo que empieza a sentirse real.",
+    "En un mundo de fantasía oscura, lazos inesperados despiertan un poder divino y abren el camino a la redención."
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -129,7 +145,11 @@ window.portfolioTranslations = {
     "Sortie par application",
     "Navigateur et lecteur de musique avec des sorties audio différentes",
     "Mixeur",
-    "Démo interactive avec des appareils de test"
+    "Démo interactive avec des appareils de test",
+    "Créez une appli de rencontres tandis que votre propre vie amoureuse prend des tournants inattendus.",
+    "Dans un lycée japonais, des promesses oubliées ramènent Kaito vers ses souvenirs perdus.",
+    "Un étudiant timide loue un rendez-vous. Ses choix déterminent ce qui commence à devenir réel.",
+    "Dans un univers de dark fantasy, des liens inattendus réveillent un pouvoir divin et ouvrent la voie à la rédemption."
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -155,7 +175,11 @@ window.portfolioTranslations = {
     "按应用选择输出",
     "浏览器和音乐播放器分别选择了不同的音频输出",
     "混音器",
-    "使用示例设备的交互演示"
+    "使用示例设备的交互演示",
+    "开发一款约会应用的同时，你自己的感情生活也走向意想不到的方向。",
+    "在一所日本高中，被遗忘的约定引导海斗找回失去的记忆。",
+    "一名害羞的学生预约了一场约会。他的选择决定哪些感情会变得真实。",
+    "在黑暗奇幻世界里，意想不到的羁绊唤醒神力，也打开了救赎之路。"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -181,7 +205,11 @@ window.portfolioTranslations = {
     "ऐप के अनुसार आउटपुट",
     "ब्राउज़र और म्यूज़िक प्लेयर के लिए अलग ऑडियो आउटपुट चुने गए हैं",
     "मिक्सर",
-    "उदाहरण डिवाइस के साथ इंटरैक्टिव डेमो"
+    "उदाहरण डिवाइस के साथ इंटरैक्टिव डेमो",
+    "एक डेटिंग ऐप बनाएँ, जबकि आपकी अपनी प्रेम कहानी अनपेक्षित मोड़ लेती है।",
+    "एक जापानी हाई स्कूल में भूले हुए वादे काइतो को उसकी खोई यादों तक ले जाते हैं।",
+    "एक शर्मीला छात्र पैसे देकर डेट तय करता है। उसके चुनाव तय करते हैं कि क्या सच लगने लगता है।",
+    "एक अँधेरी काल्पनिक दुनिया में अनपेक्षित रिश्ते दैवी शक्ति जगाते हैं और प्रायश्चित का रास्ता खोलते हैं।"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -207,7 +235,11 @@ window.portfolioTranslations = {
     "المخرج لكل تطبيق",
     "المتصفح ومشغل الموسيقى مع تحديد مخرج صوت مختلف لكل منهما",
     "مازج الصوت",
-    "عرض تفاعلي باستخدام أجهزة تجريبية"
+    "عرض تفاعلي باستخدام أجهزة تجريبية",
+    "طوّر تطبيقًا للمواعدة بينما تأخذ حياتك العاطفية منعطفات غير متوقعة.",
+    "في مدرسة ثانوية يابانية، تقود وعود منسية كايتو إلى ذكرياته المفقودة.",
+    "يستأجر طالب خجول رفيقة لموعد، وتحدد اختياراته ما يبدأ بالشعور بأنه حقيقي.",
+    "في عالم فانتازيا مظلم، توقظ روابط غير متوقعة قوة إلهية وتفتح طريقًا للخلاص."
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -233,7 +265,11 @@ window.portfolioTranslations = {
     "অ্যাপভিত্তিক আউটপুট",
     "ব্রাউজার ও মিউজিক প্লেয়ারে আলাদা অডিও আউটপুট নির্বাচিত",
     "মিক্সার",
-    "নমুনা ডিভাইসসহ ইন্টারঅ্যাক্টিভ ডেমো"
+    "নমুনা ডিভাইসসহ ইন্টারঅ্যাক্টিভ ডেমো",
+    "একটি ডেটিং অ্যাপ তৈরি করুন, যখন আপনার নিজের প্রেমজীবন অপ্রত্যাশিত দিকে মোড় নেয়।",
+    "একটি জাপানি স্কুলে ভুলে যাওয়া প্রতিশ্রুতি কাইতোকে তার হারানো স্মৃতির কাছে ফিরিয়ে নিয়ে যায়।",
+    "এক লাজুক ছাত্র টাকা দিয়ে একটি ডেট ঠিক করে। তার সিদ্ধান্তেই কিছু অনুভূতি সত্যি হয়ে ওঠে।",
+    "অন্ধকার এক কল্পজগতে অপ্রত্যাশিত সম্পর্ক দৈবশক্তি জাগায় আর মুক্তির পথ খুলে দেয়।"
   ]
 };
 

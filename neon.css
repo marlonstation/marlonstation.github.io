@@ -7,7 +7,7 @@
 :root[data-theme=neon]{
   color-scheme:dark;
   --bg:#182638;--line:#a58ab3;--ink:#fff5ef;--muted:#eadcef;--accent:#fdc99c;
-  --night:#27283f;--pink:#ef9f99;--mint:#c3dcf0;
+  --night:#27283f;--pink:#ef9f99;--label:#ffd0bc;
   --dusk-blue:#464c9f;--horizon-blue:#5f86b1;--dusk-lavender:#8f7ec3;--sunset-peach:#ffbc88;
   --display:Impact,'Arial Narrow','Segoe UI',sans-serif;
 }
@@ -24,14 +24,14 @@
 [data-theme=neon] .mark,[data-theme=neon] .intro{color:var(--ink)}
 [data-theme=neon] .hero h1{font-family:var(--display);color:var(--accent);text-shadow:2px 3px 0 #66416e,0 0 .12em #ffc18a58,0 0 .38em #ef9f9966;letter-spacing:.015em}
 [data-theme=neon] .hero h1 span{color:var(--pink);text-shadow:0 0 .27em #ef9f9980}
-[data-theme=neon] .eyebrow{color:var(--mint)}
+[data-theme=neon] .eyebrow{color:var(--label)}
 [data-theme=neon] a:hover{color:var(--accent)}
 [data-theme=neon] :is(.top nav a,.hero .links a,.content .links a,.battle > a,.footer .links a):not(.button):is(:hover,:focus-visible){
   color:var(--accent);
   text-decoration-color:var(--pink);
   text-shadow:0 0 .55em #ef9f9970;
 }
-[data-theme=neon] :focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+[data-theme=neon] :focus-visible{outline:2px solid var(--label);outline-offset:3px}
 [data-theme=neon] :is(.button,.theme-toggle){border:1px solid #ffb599;border-radius:8px;background:linear-gradient(125deg,var(--sunset-peach),var(--pink) 72%,#cfb1cf);color:#33122e;box-shadow:3px 3px 0 #74315d;font-weight:800}
 [data-theme=neon] :is(.button,.theme-toggle):hover{background:linear-gradient(125deg,#ffe3c6,#f4b6ad 72%,#e0c8e4);color:#33122e}
 [data-theme=neon] .theme-sun{background:linear-gradient(var(--sunset-peach),var(--dusk-lavender));box-shadow:0 0 0 2px #ffd3e3}
@@ -66,9 +66,10 @@
 
 [data-theme=neon] .monitor-demo{background:radial-gradient(ellipse at 67% 30%,#8f7ec37a,transparent 57%),radial-gradient(ellipse at 18% 86%,#5f86b166,transparent 54%),#202b47}
 [data-theme=neon] .ocean-widget{color:#fff0f5;border-color:#f18cbf;background:linear-gradient(155deg,#4e2549,#261735 58%,#183447);box-shadow:3px 5px 0 #251128,0 6px 20px #e95ba344}
-[data-theme=neon] .widget-heading,[data-theme=neon] .widget-memory,[data-theme=neon] .widget-model{color:#e0cbe7}
+[data-theme=neon] :is(.widget-heading,.widget-grip,.widget-memory,.widget-model,.widget-status){color:#f0cedb}
+[data-theme=neon] :is(.widget-temperatures span,.widget-ram span){color:var(--label)}
 [data-theme=neon] .widget-temperatures strong{color:#ffb2c7}
-[data-theme=neon] .widget-ram strong{color:#b8fae6}
+[data-theme=neon] .widget-ram strong{color:var(--accent)}
 [data-theme=neon] .widget-palette{background:linear-gradient(125deg,#ffbf78,#fa8ac7,#8ce7d8)}
 [data-theme=neon] .monitor-demo .widget-track{background:#533b60}
 [data-theme=neon] .monitor-demo .widget-track::before{background:linear-gradient(90deg,#ef82ba,#ffbb89)}
@@ -76,7 +77,7 @@
 [data-theme=neon] .volume-preview{background:radial-gradient(ellipse at 85% 72%,#5f86b174,transparent 58%),radial-gradient(ellipse at 20% 16%,#ef9f9959,transparent 55%),#29283f}
 [data-theme=neon] .volume-window{background:linear-gradient(145deg,#44263e,#25192e 62%);border-color:#f1a0c5}
 [data-theme=neon] .volume-window-title{color:#ffd59b;font-family:var(--display);font-size:1.18rem;letter-spacing:.06em}
-[data-theme=neon] .volume-app-icon-browser{background:#c1efe9;color:#254752}
+[data-theme=neon] .volume-app-icon-browser{background:#fbd0b6;color:#613c3d}
 [data-theme=neon] .volume-app-icon-music{background:#ffd3e5;color:#713450}
 [data-theme=neon] .donkey-case{background:radial-gradient(ellipse at 58% 100%,#1d766974,transparent 60%),linear-gradient(160deg,#502446,#25172f 70%)}
 [data-theme=neon] .lilith-case{--lilith-art:url("assets/games/lilith-rising-neon.webp")}

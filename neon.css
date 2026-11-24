@@ -16,10 +16,10 @@
   color:var(--ink);
 }
 @media (hover:hover) and (pointer:fine){
-  [data-theme=neon] body{cursor:url("assets/cursor-gta.png?v=compact") 2 2,auto;cursor:image-set(url("assets/cursor-gta.png?v=compact") 1x,url("assets/cursor-gta@2x.png?v=compact") 2x) 2 2,auto}
+  [data-theme=neon] body{cursor:url("assets/cursor-gta.png?v=v-shape") 2 2,auto;cursor:image-set(url("assets/cursor-gta.png?v=v-shape") 1x,url("assets/cursor-gta@2x.png?v=v-shape") 2x) 2 2,auto}
   [data-theme=neon] :is(a[href],button:not(:disabled),summary){
-    cursor:url("assets/cursor-gta-action.png?v=compact") 2 2,pointer;
-    cursor:image-set(url("assets/cursor-gta-action.png?v=compact") 1x,url("assets/cursor-gta-action@2x.png?v=compact") 2x) 2 2,pointer;
+    cursor:url("assets/cursor-gta-action.png?v=v-shape") 2 2,pointer;
+    cursor:image-set(url("assets/cursor-gta-action.png?v=v-shape") 1x,url("assets/cursor-gta-action@2x.png?v=v-shape") 2x) 2 2,pointer;
   }
 }
 [data-theme=neon] :is(h1,h2,h3,.mark){font-family:var(--display);letter-spacing:.015em}

@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const audio = document.querySelector('#theme-track');
   const entryGlow = document.querySelector('.theme-entry-glow');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-  let entryAnimation;
+  const heroArt = new Image();
+  const heroBackground = document.querySelector('.hero').dataset.themeBackground;
+  let changing = false;
   const musicToggle = document.querySelector('.theme-music');
   const playLabel = document.querySelector('#theme-play-label');
   const pauseLabel = document.querySelector('#theme-pause-label');
@@ -57,20 +59,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function prepareHero() {
+    if (!heroArt.getAttribute('src')) heroArt.src = heroBackground;
+  }
+
+  async function applyTheme(enabled) {
+    setNeon(enabled);
+    if (enabled) await heroArt.decode().catch(() => {});
+  }
+
+  async function transitionTheme(enabled) {
+    if (reducedMotion.matches) {
+      setNeon(enabled);
+    } else if (document.startViewTransition) {
+      themeRoot.classList.add('theme-crossfade');
+      try {
+        await document.startViewTransition(() => applyTheme(enabled)).finished;
+      } finally {
+        themeRoot.classList.remove('theme-crossfade');
+      }
+    } else {
+      const cover = entryGlow.animate([{opacity: 0}, {opacity: 1}], {duration: 220, fill: 'forwards', easing: 'ease-in-out'});
+      await cover.finished;
+      await applyTheme(enabled);
+      const reveal = entryGlow.animate([{opacity: 1}, {opacity: 0}], {duration: 400, easing: 'ease-out'});
+      cover.cancel();
+      await reveal.finished;
+    }
+  }
+
   setNeon(themeRoot.dataset.theme === 'neon');
   toggle.hidden = false;
-  toggle.addEventListener('click', () => {
+  toggle.addEventListener('pointerenter', prepareHero, {once: true});
+  toggle.addEventListener('focus', prepareHero, {once: true});
+  toggle.addEventListener('click', async () => {
+    if (changing) return;
+    changing = true;
     const enabled = themeRoot.dataset.theme !== 'neon';
-    setNeon(enabled);
-    entryAnimation?.cancel();
     if (enabled) {
+      prepareHero();
       playMusic();
-      if (!reducedMotion.matches) {
-        entryAnimation = entryGlow.animate(
-          [{opacity: 0}, {opacity: 0.55, offset: 0.26}, {opacity: 0}],
-          {duration: 560, easing: 'ease-out'}
-        );
-      }
+    } else {
+      audio.pause();
+    }
+    try {
+      await transitionTheme(enabled);
+    } catch {
+      setNeon(enabled);
+    } finally {
+      changing = false;
     }
     try {
       if (enabled) localStorage.setItem(themeStorageKey, 'neon');

@@ -11,10 +11,10 @@
 <meta property="og:description" content="Selected work in full-stack development, native macOS apps, and games.">
 <meta property="og:image" content="https://marlonstation.github.io/assets/metrics-history.png">
 <title data-i18n="26" data-pt="Desenvolvedor de software">Marlon Ribeiro — Software Developer</title>
-<link rel="stylesheet" href="style.css?v=game-previews">
-<link rel="stylesheet" href="neon.css">
-<script src="theme.js"></script>
-<script src="translations.js?v=neon" defer></script>
+<link rel="stylesheet" href="style.css?v=gta6">
+<link rel="stylesheet" href="neon.css?v=gta6">
+<script src="theme.js?v=gta6"></script>
+<script src="translations.js?v=gta6" defer></script>
 <script src="site.js?v=interactive-mixer" defer></script>
 <script src="showcase.js?v=history-motion" defer></script>
 </head>
@@ -27,7 +27,11 @@
 <a href="#work" data-i18n="1" data-pt="Trabalhos">Work</a>
 <a href="#contact" data-i18n="2" data-pt="Contato">Contact</a>
 </nav>
-<button type="button" class="theme-toggle" aria-pressed="false" hidden><span class="theme-sun" aria-hidden="true"></span><span data-i18n="45" data-pt="Modo Neon">Neon mode</span></button>
+<button type="button" class="theme-toggle" aria-pressed="false" hidden><span class="theme-sun" aria-hidden="true"></span><span lang="en" dir="ltr">GTA 6 Mode</span></button>
+<button type="button" class="theme-music" aria-label="Play music" hidden></button>
+<span id="theme-play-label" data-i18n="45" data-pt="Tocar música" hidden>Play music</span>
+<span id="theme-pause-label" data-i18n="46" data-pt="Pausar música" hidden>Pause music</span>
+<audio id="theme-track" src="assets/neon-coast.m4a" loop preload="none" hidden></audio>
 </div>
 </header>
 <div class="wrap language-bar" id="languages" role="group" aria-labelledby="language-label">
@@ -171,7 +175,7 @@
 <article class="card blue donkey-case"><p class="eyebrow" data-i18n="12" data-pt="DREAMAR · Jogo Android">DREAMAR · Android game</p><h3>Donkey Barrel</h3><p data-i18n="13" data-pt="Como aumentar o desafio sem complicar os controles? Mantive a ação principal em um toque e usei o timing, os obstáculos e novas mecânicas para variar a dificuldade.">How do you increase the challenge without complicating the controls? I kept the main action to one tap and used timing, obstacles, and new mechanics to vary the difficulty.</p>
 <a href="https://play.google.com/store/apps/details?id=com.dreamar.donkeybarrel" target="_blank" rel="noopener noreferrer">Google Play</a>
 <figure class="donkey-art">
-<img src="assets/games/donkey-barrel-characters.webp" width="960" height="480" loading="lazy" alt="">
+<img src="assets/games/donkey-barrel-characters.webp" data-neon-src="assets/games/donkey-barrel-neon.webp" width="960" height="480" loading="lazy" alt="">
 </figure>
 </article>
 <article class="card plum movies-case">

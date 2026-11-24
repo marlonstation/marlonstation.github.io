@@ -28,7 +28,8 @@ window.portfolioTranslations = {
     "An einer japanischen Schule führen vergessene Versprechen Kaito zu seinen verlorenen Erinnerungen.",
     "Ein schüchterner Schüler bucht ein Date. Seine Entscheidungen bestimmen, was sich echt anfühlt.",
     "In einer düsteren Fantasywelt wecken unerwartete Bindungen göttliche Kräfte und eröffnen einen Weg zur Erlösung.",
-    "Neonmodus"
+    "Musik abspielen",
+    "Musik pausieren"
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
@@ -59,7 +60,8 @@ window.portfolioTranslations = {
     "日本の高校を舞台に、忘れられた約束がカイトを失われた記憶へと導く。",
     "内気な学生がデートを依頼する。何が本物になっていくかは、彼の選択次第。",
     "暗いファンタジーの世界で、思いがけない絆が神の力を呼び覚まし、贖いへの道を開く。",
-    "ネオンモード"
+    "音楽を再生",
+    "音楽を一時停止"
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
@@ -90,7 +92,8 @@ window.portfolioTranslations = {
     "В японской школе забытые обещания ведут Кайто к утраченным воспоминаниям.",
     "Застенчивый студент заказывает свидание. От его выбора зависит, что станет настоящим.",
     "В мрачном фэнтезийном мире неожиданные связи пробуждают божественную силу и открывают путь к искуплению.",
-    "Неоновый режим"
+    "Включить музыку",
+    "Приостановить музыку"
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
@@ -122,7 +125,8 @@ window.portfolioTranslations = {
     "En un instituto japonés, unas promesas olvidadas guían a Kaito hacia sus recuerdos perdidos.",
     "Un estudiante tímido contrata una cita. Sus decisiones marcan lo que empieza a sentirse real.",
     "En un mundo de fantasía oscura, lazos inesperados despiertan un poder divino y abren el camino a la redención.",
-    "Modo neón"
+    "Reproducir música",
+    "Pausar música"
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
@@ -154,7 +158,8 @@ window.portfolioTranslations = {
     "Dans un lycée japonais, des promesses oubliées ramènent Kaito vers ses souvenirs perdus.",
     "Un étudiant timide loue un rendez-vous. Ses choix déterminent ce qui commence à devenir réel.",
     "Dans un univers de dark fantasy, des liens inattendus réveillent un pouvoir divin et ouvrent la voie à la rédemption.",
-    "Mode néon"
+    "Lancer la musique",
+    "Mettre la musique en pause"
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
@@ -185,7 +190,8 @@ window.portfolioTranslations = {
     "在一所日本高中，被遗忘的约定引导海斗找回失去的记忆。",
     "一名害羞的学生预约了一场约会。他的选择决定哪些感情会变得真实。",
     "在黑暗奇幻世界里，意想不到的羁绊唤醒神力，也打开了救赎之路。",
-    "霓虹模式"
+    "播放音乐",
+    "暂停音乐"
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
@@ -216,7 +222,8 @@ window.portfolioTranslations = {
     "एक जापानी हाई स्कूल में भूले हुए वादे काइतो को उसकी खोई यादों तक ले जाते हैं।",
     "एक शर्मीला छात्र पैसे देकर डेट तय करता है। उसके चुनाव तय करते हैं कि क्या सच लगने लगता है।",
     "एक अँधेरी काल्पनिक दुनिया में अनपेक्षित रिश्ते दैवी शक्ति जगाते हैं और प्रायश्चित का रास्ता खोलते हैं।",
-    "नीऑन मोड"
+    "संगीत चलाएँ",
+    "संगीत रोकें"
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
@@ -247,7 +254,8 @@ window.portfolioTranslations = {
     "في مدرسة ثانوية يابانية، تقود وعود منسية كايتو إلى ذكرياته المفقودة.",
     "يستأجر طالب خجول رفيقة لموعد، وتحدد اختياراته ما يبدأ بالشعور بأنه حقيقي.",
     "في عالم فانتازيا مظلم، توقظ روابط غير متوقعة قوة إلهية وتفتح طريقًا للخلاص.",
-    "وضع النيون"
+    "تشغيل الموسيقى",
+    "إيقاف الموسيقى مؤقتًا"
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
@@ -278,7 +286,8 @@ window.portfolioTranslations = {
     "একটি জাপানি স্কুলে ভুলে যাওয়া প্রতিশ্রুতি কাইতোকে তার হারানো স্মৃতির কাছে ফিরিয়ে নিয়ে যায়।",
     "এক লাজুক ছাত্র টাকা দিয়ে একটি ডেট ঠিক করে। তার সিদ্ধান্তেই কিছু অনুভূতি সত্যি হয়ে ওঠে।",
     "অন্ধকার এক কল্পজগতে অপ্রত্যাশিত সম্পর্ক দৈবশক্তি জাগায় আর মুক্তির পথ খুলে দেয়।",
-    "নিয়ন মোড"
+    "সঙ্গীত চালান",
+    "সঙ্গীত বিরত করুন"
   ]
 };
 

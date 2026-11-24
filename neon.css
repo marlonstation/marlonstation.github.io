@@ -56,3 +56,32 @@
 [data-theme=neon] :is(.battle,.footer,.language-bar){border-color:#a75f986f}
 [data-theme=neon] :is(#work-title,#steam-title,#battle-title,#contact h2){letter-spacing:.012em;font-weight:400}
 @media(min-width:781px){[data-theme=neon] .portrait-wrap{width:min(100%,245px)}}
+
+[data-theme=neon] .monitor-demo{background:radial-gradient(ellipse at 76% 8%,#c9548b91,transparent 60%),linear-gradient(155deg,#502859,#253252 59%,#174650)}
+[data-theme=neon] .ocean-widget{color:#fff0f5;border-color:#f18cbf;background:linear-gradient(155deg,#4e2549,#261735 58%,#183447);box-shadow:3px 5px 0 #251128,0 6px 20px #e95ba344}
+[data-theme=neon] .widget-heading,[data-theme=neon] .widget-memory,[data-theme=neon] .widget-model{color:#e0cbe7}
+[data-theme=neon] .widget-temperatures strong{color:#ffb2c7}
+[data-theme=neon] .widget-ram strong{color:#b8fae6}
+[data-theme=neon] .widget-palette{background:linear-gradient(125deg,#ffbf78,#fa8ac7,#8ce7d8)}
+[data-theme=neon] .monitor-demo .widget-track{background:#533b60}
+[data-theme=neon] .monitor-demo .widget-track::before{background:linear-gradient(90deg,#ef82ba,#ffbb89)}
+[data-theme=neon] .history-preview{filter:sepia(.19) saturate(1.35) hue-rotate(290deg) drop-shadow(0 8px 14px #210c36bd);outline:1px solid #f197b894;outline-offset:2px;border-radius:8px}
+[data-theme=neon] .volume-preview{background:radial-gradient(ellipse at 11% 30%,#bf5e766a,transparent 58%),linear-gradient(150deg,#592646,#322445 62%,#1b4d52)}
+[data-theme=neon] .volume-window{background:linear-gradient(145deg,#44263e,#25192e 62%);border-color:#f1a0c5}
+[data-theme=neon] .volume-window-title{color:#ffd59b;font-family:var(--display);font-size:1.18rem;letter-spacing:.06em}
+[data-theme=neon] .volume-app-icon-browser{background:#c1efe9;color:#254752}
+[data-theme=neon] .volume-app-icon-music{background:#ffd3e5;color:#713450}
+[data-theme=neon] .donkey-case{background:radial-gradient(ellipse at 58% 100%,#1d766974,transparent 60%),linear-gradient(160deg,#502446,#25172f 70%)}
+[data-theme=neon] .donkey-art img{filter:drop-shadow(0 0 12px #f99ba74a)}
+[data-theme=neon] .lilith-case{--lilith-art:url("assets/games/lilith-rising-neon.webp")}
+[data-theme=neon] .lilith-case .branch-demo{background:#291b36e8;border-color:#d185b480}
+[data-theme=neon] .lilith-case .branch-node{background:#583457;border-color:#d185b480}
+[data-theme=neon] .solo-game-card img{filter:sepia(.12) saturate(1.4) contrast(1.09);outline:1px solid #ff9dba8a}
+@media(hover:hover){[data-theme=neon] .solo-game-card:hover img{filter:sepia(.12) saturate(1.4) contrast(1.09) blur(4px)}}
+[data-theme=neon] .solo-game-card:focus-visible img{filter:sepia(.12) saturate(1.4) contrast(1.09) blur(4px)}
+
+.theme-music:not([hidden]){display:inline-grid;place-items:center;flex:0 0 44px;width:44px;height:44px;padding:0;border:1px solid #e19bc3;border-radius:9px;background:#381b45;color:#ffe1c1;cursor:pointer}
+.theme-music:hover{background:#532455}
+.theme-music::before{content:"";width:0;height:0;border-block:6px solid transparent;border-inline-start:10px solid currentColor}
+.theme-music[data-playing=true]::before{width:11px;height:13px;border-block:0;border-inline:3px solid currentColor}
+@media(max-width:520px){.theme-music:not([hidden]){flex-basis:38px;width:38px}}

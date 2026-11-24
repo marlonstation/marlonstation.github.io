@@ -17,10 +17,13 @@
 }
 [data-theme=neon] :is(h1,h2,h3,.mark){font-family:var(--display);letter-spacing:.015em}
 [data-theme=neon] :is(h2,h3){color:#ffe1d2}
+[data-theme=neon] h2{text-shadow:0 0 .22em #efa69b47,0 0 .58em #ef9f9933}
+[data-theme=neon] h3{text-shadow:0 0 .32em #ef9f9940}
+[data-theme=neon] .mark{text-shadow:0 0 .45em #ef9f9955}
 [data-theme=neon] .top{border-color:#c77da459}
 [data-theme=neon] .mark,[data-theme=neon] .intro{color:var(--ink)}
-[data-theme=neon] .hero h1{font-family:var(--display);color:var(--accent);text-shadow:2px 3px 0 #66416e,0 0 22px #ef9f993d;letter-spacing:.015em}
-[data-theme=neon] .hero h1 span{color:var(--pink)}
+[data-theme=neon] .hero h1{font-family:var(--display);color:var(--accent);text-shadow:2px 3px 0 #66416e,0 0 .12em #ffc18a58,0 0 .38em #ef9f9966;letter-spacing:.015em}
+[data-theme=neon] .hero h1 span{color:var(--pink);text-shadow:0 0 .27em #ef9f9980}
 [data-theme=neon] .eyebrow{color:var(--mint)}
 [data-theme=neon] a:hover{color:var(--mint)}
 [data-theme=neon] :focus-visible{outline:2px solid var(--mint);outline-offset:3px}

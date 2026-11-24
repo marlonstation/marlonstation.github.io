@@ -12,7 +12,9 @@
 <meta property="og:image" content="https://marlonstation.github.io/assets/metrics-history.png">
 <title data-i18n="26" data-pt="Desenvolvedor de software">Marlon Ribeiro — Software Developer</title>
 <link rel="stylesheet" href="style.css?v=game-previews">
-<script src="translations.js?v=game-previews" defer></script>
+<link rel="stylesheet" href="neon.css">
+<script src="theme.js"></script>
+<script src="translations.js?v=neon" defer></script>
 <script src="site.js?v=interactive-mixer" defer></script>
 <script src="showcase.js?v=history-motion" defer></script>
 </head>
@@ -20,10 +22,13 @@
 <a class="skip" href="#main" data-i18n="0" data-pt="Pular para o conteúdo">Skip to content</a>
 <header class="wrap top">
 <a class="mark" dir="ltr" href="#">MR<span>.</span></a>
+<div class="top-actions">
 <nav id="main-nav" data-i18n="28" data-pt="Portfólio" aria-label="Portfolio">
 <a href="#work" data-i18n="1" data-pt="Trabalhos">Work</a>
 <a href="#contact" data-i18n="2" data-pt="Contato">Contact</a>
 </nav>
+<button type="button" class="theme-toggle" aria-pressed="false" hidden><span class="theme-sun" aria-hidden="true"></span><span data-i18n="45" data-pt="Modo Neon">Neon mode</span></button>
+</div>
 </header>
 <div class="wrap language-bar" id="languages" role="group" aria-labelledby="language-label">
 <span class="language-label"><span aria-hidden="true">🌐</span> <span id="language-label" data-i18n="25" data-pt="Idioma">Language</span></span>
@@ -54,7 +59,7 @@
 <p class="intro" data-i18n="4" data-pt="Crio apps nativos para macOS e jogos, do protótipo ao lançamento. Na Jubei Studio, liderei uma equipe de programação.">I build native macOS apps and games from prototype to release. At Jubei Studio, I led a programming team.</p>
 <div class="actions"><a class="button" href="#work" data-i18n="5" data-pt="Ver trabalhos">View selected work</a><a href="https://www.linkedin.com/in/marlonrt/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
 </div>
-<div class="portrait-wrap"><img class="portrait" src="assets/marlon.jpg" width="400" height="400" alt="Marlon Ribeiro"></div>
+<div class="portrait-wrap"><img class="portrait" src="assets/marlon.jpg" data-neon-src="assets/marlon-neon.webp" width="400" height="400" alt="Marlon Ribeiro"></div>
 </section>
 <section id="work" aria-labelledby="work-title">
 <h2 id="work-title" data-i18n="6" data-pt="Trabalhos selecionados">Selected work</h2>

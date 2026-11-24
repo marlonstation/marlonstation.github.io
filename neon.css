@@ -100,9 +100,21 @@
 [data-theme=neon] .donkey-art img{width:100%;aspect-ratio:2/1;object-fit:contain;border:1px solid #db8aba85;border-radius:11px;background:#2d1935;box-shadow:0 8px 20px #170d25a0}
 
 .theme-entry-glow{position:fixed;inset:0;z-index:10;opacity:0;pointer-events:none;background:radial-gradient(ellipse at 78% 40%,#ef9f99,transparent 66%),linear-gradient(125deg,var(--dusk-blue,#464c9f),#7a5a9f 75%,#5f86b1)}
-.theme-crossfade::view-transition-old(root){animation:none;mix-blend-mode:normal}
-.theme-crossfade::view-transition-new(root){animation:theme-reveal .66s cubic-bezier(.22,.65,.26,1) both;mix-blend-mode:normal}
-@keyframes theme-reveal{from{opacity:0;filter:blur(4px)}to{opacity:1;filter:blur(0)}}
+@property --theme-scan-radius{syntax:"<length>";inherits:false;initial-value:0px}
+.theme-scanning .theme-entry-glow{view-transition-name:theme-scan-light}
+.theme-scanning::view-transition-old(root){animation:none;mix-blend-mode:normal}
+.theme-scanning::view-transition-new(root){
+  mask-image:radial-gradient(circle at center,#000 calc(var(--theme-scan-radius) - 12px),transparent var(--theme-scan-radius));
+  animation:theme-scan-reveal .92s cubic-bezier(.37,.02,.23,1) both;
+  mix-blend-mode:normal;
+}
+.theme-scanning::view-transition-group(theme-scan-light){
+  z-index:1;
+  background:radial-gradient(circle at center,transparent calc(var(--theme-scan-radius) - 17px),#87d8ff3d calc(var(--theme-scan-radius) - 9px),#ffe4c4d9 calc(var(--theme-scan-radius) - 2px),#f6a5bb67 calc(var(--theme-scan-radius) + 3px),transparent calc(var(--theme-scan-radius) + 15px));
+  animation:theme-scan-reveal .92s cubic-bezier(.37,.02,.23,1) both,theme-scan-light .92s ease both;
+}
+@keyframes theme-scan-reveal{from{--theme-scan-radius:0px}to{--theme-scan-radius:75vmax}}
+@keyframes theme-scan-light{0%,100%{opacity:0}18%,68%{opacity:.78}}
 [data-theme=neon] :is(.feature,.studio-case,.card,.solo-games){border-color:#936f82;box-shadow:inset 0 1px #f6bdba24,0 9px 22px #0c102253}
 [data-theme=neon] :is(.mac-apps .feature,.solo-games){border-color:#71848f}
 [data-theme=neon] .monitor-demo .demo-actions{background:#17232f}

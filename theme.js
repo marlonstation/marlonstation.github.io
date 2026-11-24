@@ -72,17 +72,20 @@ document.addEventListener('DOMContentLoaded', () => {
     if (reducedMotion.matches) {
       setNeon(enabled);
     } else if (document.startViewTransition) {
-      themeRoot.classList.add('theme-crossfade');
+      themeRoot.classList.add('theme-scanning');
       try {
         await document.startViewTransition(() => applyTheme(enabled)).finished;
       } finally {
-        themeRoot.classList.remove('theme-crossfade');
+        themeRoot.classList.remove('theme-scanning');
       }
     } else {
-      const cover = entryGlow.animate([{opacity: 0}, {opacity: 1}], {duration: 220, fill: 'forwards', easing: 'ease-in-out'});
+      const cover = entryGlow.animate(
+        [{opacity: 1, clipPath: 'circle(0 at center)'}, {opacity: 1, clipPath: 'circle(75vmax at center)'}],
+        {duration: 330, fill: 'forwards', easing: 'cubic-bezier(.38,0,.24,1)'}
+      );
       await cover.finished;
       await applyTheme(enabled);
-      const reveal = entryGlow.animate([{opacity: 1}, {opacity: 0}], {duration: 400, easing: 'ease-out'});
+      const reveal = entryGlow.animate([{opacity: 1}, {opacity: 0}], {duration: 360, easing: 'ease-out'});
       cover.cancel();
       await reveal.finished;
     }

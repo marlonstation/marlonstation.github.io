@@ -70,7 +70,6 @@
 [data-theme=neon] .volume-app-icon-browser{background:#c1efe9;color:#254752}
 [data-theme=neon] .volume-app-icon-music{background:#ffd3e5;color:#713450}
 [data-theme=neon] .donkey-case{background:radial-gradient(ellipse at 58% 100%,#1d766974,transparent 60%),linear-gradient(160deg,#502446,#25172f 70%)}
-[data-theme=neon] .donkey-art img{filter:drop-shadow(0 0 12px #f99ba74a)}
 [data-theme=neon] .lilith-case{--lilith-art:url("assets/games/lilith-rising-neon.webp")}
 [data-theme=neon] .lilith-case .branch-demo{background:#291b36e8;border-color:#d185b480}
 [data-theme=neon] .lilith-case .branch-node{background:#583457;border-color:#d185b480}
@@ -84,7 +83,7 @@
 .theme-music[data-playing=true]::before{width:11px;height:13px;border-block:0;border-inline:3px solid currentColor}
 @media(max-width:520px){.theme-music:not([hidden]){flex-basis:38px;width:38px}}
 
-[data-theme=neon] .hero{display:grid;grid-template-columns:minmax(0,58%) 1fr;gap:0;min-height:clamp(400px,45vw,535px);margin-block:clamp(16px,3vw,32px);padding:clamp(24px,5vw,64px);border:1px solid #df85b8;border-radius:24px;background:#24192f linear-gradient(90deg,#22162de6,#22162d7a 51%,transparent 78%);background-image:linear-gradient(90deg,#22162ddd,#22162d65 51%,transparent 78%),url("assets/marlon-neon-hero.webp");background-size:cover;background-position:center top;box-shadow:5px 5px 0 #632752,0 15px 36px #190d2680}
+[data-theme=neon] .hero{display:grid;grid-template-columns:minmax(0,58%) 1fr;gap:0;min-height:clamp(390px,42vw,470px);margin-block:clamp(16px,3vw,32px);padding:clamp(24px,5vw,64px);border:1px solid #df85b8;border-radius:24px;background:#24192f linear-gradient(90deg,#22162de6,#22162d7a 51%,transparent 78%);background-image:linear-gradient(90deg,#22162ddd,#22162d65 51%,transparent 78%),url("assets/marlon-neon-waterfront.webp");background-size:cover;background-position:center top;box-shadow:5px 5px 0 #632752,0 15px 36px #190d2680}
 [data-theme=neon] .hero>div:first-child{grid-column:1;grid-row:1;min-width:0}
 [data-theme=neon] .hero:dir(rtl){direction:ltr}
 [data-theme=neon] .hero:dir(rtl)>div:first-child{direction:rtl}
@@ -92,8 +91,9 @@
 [data-theme=neon] .hero h1{font-size:clamp(2.7rem,6.4vw,6.9rem);line-height:.98}
 [data-theme=neon] .history-ram{display:none}
 @media(max-width:680px){
-  [data-theme=neon] .hero{grid-template-columns:1fr;align-items:end;min-height:475px;padding:20px;background-image:linear-gradient(to bottom,#24152b00 22%,#21152b80 49%,#21152bf0 67%,#21152b 100%),url("assets/marlon-neon-hero.webp");background-position:center,82% top}
+  [data-theme=neon] .hero{grid-template-columns:1fr;align-items:end;min-height:475px;padding:20px;background-image:linear-gradient(to bottom,#24152b00 22%,#21152b80 49%,#21152bf0 67%,#21152b 100%),url("assets/marlon-neon-waterfront.webp");background-position:center,82% top;background-size:100% 100%,auto 320px;background-repeat:no-repeat}
   [data-theme=neon] .hero h1{font-size:clamp(2.7rem,10vw,4.6rem)}
 }
 [data-theme=neon] .monitor-demo .history-preview{width:min(100%,370px)}
-[data-theme=neon] .donkey-art{width:min(100%,310px)}
+[data-theme=neon] .donkey-art{width:100%;margin:auto 0 16px;padding-top:14px}
+[data-theme=neon] .donkey-art img{width:100%;aspect-ratio:2/1;object-fit:contain;border:1px solid #db8aba85;border-radius:11px;background:#2d1935;box-shadow:0 8px 20px #170d25a0}

@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!toggle) return;
 
   const audio = document.querySelector('#theme-track');
+  const entryGlow = document.querySelector('.theme-entry-glow');
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let entryAnimation;
   const musicToggle = document.querySelector('.theme-music');
   const playLabel = document.querySelector('#theme-play-label');
   const pauseLabel = document.querySelector('#theme-pause-label');
@@ -59,7 +62,16 @@ document.addEventListener('DOMContentLoaded', () => {
   toggle.addEventListener('click', () => {
     const enabled = themeRoot.dataset.theme !== 'neon';
     setNeon(enabled);
-    if (enabled) playMusic();
+    entryAnimation?.cancel();
+    if (enabled) {
+      playMusic();
+      if (!reducedMotion.matches) {
+        entryAnimation = entryGlow.animate(
+          [{opacity: 0}, {opacity: 0.55, offset: 0.26}, {opacity: 0}],
+          {duration: 560, easing: 'ease-out'}
+        );
+      }
+    }
     try {
       if (enabled) localStorage.setItem(themeStorageKey, 'neon');
       else localStorage.removeItem(themeStorageKey);

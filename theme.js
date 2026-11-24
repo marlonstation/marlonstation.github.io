@@ -68,15 +68,35 @@ document.addEventListener('DOMContentLoaded', () => {
     if (enabled) await heroArt.decode().catch(() => {});
   }
 
+  function markVisiblePanels() {
+    if (!CSS.supports('selector(::view-transition-group(.theme-panel))')) return [];
+    const panels = Array.from(document.querySelectorAll('.hero, #work article, .solo-games, .battle, .footer'))
+      .filter(panel => {
+        const { top, bottom } = panel.getBoundingClientRect();
+        return bottom > 0 && top < window.innerHeight;
+      }).slice(0, 5);
+
+    panels.forEach((panel, index) => {
+      panel.classList.add('theme-panel');
+      panel.style.viewTransitionName = 'theme-panel-' + index;
+    });
+    return panels;
+  }
+
   async function transitionTheme(enabled) {
     if (reducedMotion.matches) {
       setNeon(enabled);
     } else if (document.startViewTransition) {
       themeRoot.classList.add('theme-scanning');
+      const panels = markVisiblePanels();
       try {
         await document.startViewTransition(() => applyTheme(enabled)).finished;
       } finally {
         themeRoot.classList.remove('theme-scanning');
+        for (const panel of panels) {
+          panel.classList.remove('theme-panel');
+          panel.style.removeProperty('view-transition-name');
+        }
       }
     } else {
       const cover = entryGlow.animate(

@@ -1,7 +1,7 @@
 window.portfolioTranslations = {
   de: [
     "Zum Inhalt springen", "Projekte", "Kontakt", "Softwareentwickler · Brasilien",
-    "Ich entwickle native macOS-Apps und Spiele vom Prototyp bis zur Veröffentlichung. Bei Jubei Studio leitete ich ein Programmierteam.",
+    "Ich entwickle native macOS-Apps und Spiele vom Prototyp bis zur Veröffentlichung.",
     "Ausgewählte Projekte ansehen", "Ausgewählte Projekte", "Temperatur- und Speicherverlauf in MonitorMac", "Schwebendes Fenster von MonitorMac",
     "Ich wollte Temperatur und Speicherauslastung im Blick behalten, ohne meine Arbeit zu unterbrechen. Dafür habe ich eine native App entwickelt, die Live-Werte in der Menüleiste anzeigt und per systemweitem Kurzbefehl ein schwebendes Fenster öffnet.",
     "Die Standardversion zeigt den thermischen Systemzustand, die RAM-Auslastung und den Verlauf der letzten zehn Minuten. Die Bilder zeigen die experimentelle Version, die auch CPU- und GPU-Temperaturen anzeigt.",
@@ -33,7 +33,7 @@ window.portfolioTranslations = {
   ],
   ja: [
     "本文へ移動", "制作実績", "お問い合わせ", "ソフトウェア開発者 · ブラジル",
-    "macOS ネイティブアプリとゲームを、試作からリリースまで開発しています。Jubei Studio ではプログラミングチームを率いました。",
+    "macOS ネイティブアプリとゲームを、試作からリリースまで開発しています。",
     "制作実績を見る", "主な制作実績", "MonitorMac の温度とメモリの履歴", "MonitorMac のフローティングパネル",
     "作業を中断せずに温度とメモリの状態を確認したくて、ネイティブアプリを開発しました。メニューバーでリアルタイムの値を確認でき、グローバルショートカットでフローティングパネルを開けます。",
     "標準ビルドでは、システムの熱状態、RAM 使用量、直近 10 分間の履歴を表示します。画像は CPU と GPU の温度も表示する実験版です。",
@@ -65,7 +65,7 @@ window.portfolioTranslations = {
   ],
   ru: [
     "Перейти к содержимому", "Проекты", "Контакты", "Разработчик ПО · Бразилия",
-    "Я разрабатываю нативные приложения для macOS и игры, от прототипа до релиза. В Jubei Studio я руководил командой программистов.",
+    "Я разрабатываю нативные приложения для macOS и игры, от прототипа до релиза.",
     "Посмотреть проекты", "Избранные проекты", "История температуры и использования памяти в MonitorMac", "Плавающая панель MonitorMac",
     "Я хотел следить за температурой и памятью, не прерывая работу. Поэтому я создал нативное приложение с показаниями в строке меню и плавающей панелью, которую можно открыть глобальным сочетанием клавиш.",
     "Стандартная сборка показывает тепловое состояние системы, использование оперативной памяти и историю за десять минут. На изображениях показана экспериментальная сборка, которая также отображает температуру CPU и GPU.",
@@ -97,7 +97,7 @@ window.portfolioTranslations = {
   ],
   es: [
     "Saltar al contenido", "Proyectos", "Contacto", "Desarrollador de software · Brasil",
-    "Desarrollo apps nativas para macOS y videojuegos, del prototipo al lanzamiento. En Jubei Studio dirigí al equipo de programación.",
+    "Desarrollo apps nativas para macOS y videojuegos, del prototipo al lanzamiento.",
     "Ver proyectos", "Proyectos destacados", "Historial de temperaturas y memoria de MonitorMac", "Panel flotante de MonitorMac",
     "Quería consultar la temperatura y la memoria sin interrumpir lo que estaba haciendo. Creé una app nativa con lecturas en tiempo real en la barra de menús y un panel flotante accesible mediante un atajo global.",
     "La versión estándar muestra el estado térmico del sistema, el uso de RAM y diez minutos de historial. Las imágenes muestran la versión experimental, que también indica las temperaturas de CPU y GPU.",
@@ -130,7 +130,7 @@ window.portfolioTranslations = {
   ],
   fr: [
     "Aller au contenu", "Projets", "Contact", "Développeur logiciel · Brésil",
-    "Je crée des logiciels natifs pour macOS et des jeux, du prototype à la sortie. Chez Jubei Studio, j’ai dirigé une équipe de programmation.",
+    "Je crée des logiciels natifs pour macOS et des jeux, du prototype à la sortie.",
     "Voir les projets", "Projets sélectionnés", "Historique des températures et de la mémoire dans MonitorMac", "Panneau flottant de MonitorMac",
     "Je voulais consulter la température et la mémoire sans interrompre mon travail. J’ai créé une application native avec des mesures en direct dans la barre des menus et un panneau flottant accessible par un raccourci global.",
     "La version standard affiche l’état thermique du système, l’utilisation de la RAM et dix minutes d’historique. Les images montrent la version expérimentale, qui indique aussi les températures du processeur et du GPU.",
@@ -163,7 +163,7 @@ window.portfolioTranslations = {
   ],
   "zh-Hans": [
     "跳转到正文", "作品", "联系", "软件开发者 · 巴西",
-    "我开发 macOS 原生应用和游戏，从原型做到正式发布。在 Jubei Studio，我曾带领程序团队。",
+    "我开发 macOS 原生应用和游戏，从原型做到正式发布。",
     "查看精选作品", "精选作品", "MonitorMac 的温度和内存历史记录", "MonitorMac 悬浮面板",
     "我想在不中断工作的情况下查看温度和内存使用情况。为此，我开发了一款原生应用，在菜单栏实时显示读数，并可用全局快捷键打开悬浮面板。",
     "标准版本显示系统热状态、内存使用情况和最近十分钟的历史记录。图片展示的是实验版本，它还可以显示 CPU 和 GPU 的温度。",
@@ -195,7 +195,7 @@ window.portfolioTranslations = {
   ],
   hi: [
     "मुख्य सामग्री पर जाएँ", "प्रोजेक्ट", "संपर्क", "सॉफ़्टवेयर डेवलपर · ब्राज़ील",
-    "मैं macOS के लिए नेटिव ऐप और गेम प्रोटोटाइप से रिलीज़ तक बनाता हूँ। Jubei Studio में मैंने प्रोग्रामिंग टीम का नेतृत्व किया।",
+    "मैं macOS के लिए नेटिव ऐप और गेम प्रोटोटाइप से रिलीज़ तक बनाता हूँ।",
     "चुनिंदा प्रोजेक्ट देखें", "चुनिंदा प्रोजेक्ट", "MonitorMac में तापमान और मेमोरी का इतिहास", "MonitorMac का फ़्लोटिंग पैनल",
     "मैं अपना काम रोके बिना तापमान और मेमोरी देखना चाहता था। मैंने एक नेटिव ऐप बनाया जो मेनू बार में लाइव रीडिंग दिखाता है और ग्लोबल शॉर्टकट से फ़्लोटिंग पैनल खोलता है।",
     "मानक बिल्ड सिस्टम की तापीय स्थिति, RAM का इस्तेमाल और पिछले दस मिनट का इतिहास दिखाता है। तस्वीरें प्रयोगात्मक बिल्ड की हैं, जो CPU और GPU का तापमान भी दिखाता है।",
@@ -227,7 +227,7 @@ window.portfolioTranslations = {
   ],
   ar: [
     "انتقل إلى المحتوى", "المشاريع", "التواصل", "مطوّر برمجيات · البرازيل",
-    "أطوّر تطبيقات أصلية لنظام macOS وألعابًا من النموذج الأولي حتى الإصدار. في Jubei Studio، قدت فريق برمجة.",
+    "أطوّر تطبيقات أصلية لنظام macOS وألعابًا من النموذج الأولي حتى الإصدار.",
     "اعرض المشاريع المختارة", "مشاريع مختارة", "سجل درجات الحرارة والذاكرة في MonitorMac", "اللوحة العائمة في MonitorMac",
     "أردت متابعة درجات الحرارة والذاكرة من دون مقاطعة عملي. لذلك طوّرت تطبيقًا أصليًا يعرض القراءات مباشرة في شريط القوائم، ويفتح لوحة عائمة باختصار يعمل على مستوى النظام.",
     "يعرض الإصدار القياسي الحالة الحرارية للنظام واستخدام ذاكرة RAM وسجل آخر عشر دقائق. تعرض الصور الإصدار التجريبي الذي يُظهر أيضًا درجتي حرارة المعالج ووحدة الرسوميات.",
@@ -259,7 +259,7 @@ window.portfolioTranslations = {
   ],
   bn: [
     "মূল বিষয়বস্তুতে যান", "প্রকল্প", "যোগাযোগ", "সফটওয়্যার ডেভেলপার · ব্রাজিল",
-    "আমি macOS-এর জন্য নেটিভ অ্যাপ ও গেম প্রোটোটাইপ থেকে প্রকাশ পর্যন্ত তৈরি করি। Jubei Studio-তে একটি প্রোগ্রামিং দলকে নেতৃত্ব দিয়েছি।",
+    "আমি macOS-এর জন্য নেটিভ অ্যাপ ও গেম প্রোটোটাইপ থেকে প্রকাশ পর্যন্ত তৈরি করি।",
     "বাছাই করা প্রকল্প দেখুন", "বাছাই করা প্রকল্প", "MonitorMac-এ তাপমাত্রা ও মেমরির ইতিহাস", "MonitorMac-এর ভাসমান প্যানেল",
     "কাজে বাধা না দিয়ে তাপমাত্রা ও মেমরি দেখতে চেয়েছিলাম। তাই একটি নেটিভ অ্যাপ তৈরি করেছি, যা মেনু বারে সরাসরি রিডিং দেখায় এবং সিস্টেমব্যাপী শর্টকাটে ভাসমান প্যানেল খোলে।",
     "স্ট্যান্ডার্ড বিল্ড সিস্টেমের তাপীয় অবস্থা, RAM ব্যবহার এবং শেষ দশ মিনিটের ইতিহাস দেখায়। ছবিতে পরীক্ষামূলক বিল্ডটি দেখা যাচ্ছে, যা CPU ও GPU-এর তাপমাত্রাও দেখায়।",
